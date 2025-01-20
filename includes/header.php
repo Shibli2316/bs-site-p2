@@ -39,7 +39,7 @@
                     <i class="fab fa-youtube"></i>
                   </a>
                 </li>
-                <li><a href="auth/authenticate.php" class="hover:text-green-700 block px-4 py-2">Sign Up</a></li>
+                <li><a href="auth/authenticate.php" class="inline-block rounded bg-emerald-600 px-5 py-2 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400">Sign Up</a></li>
               </ul>
             </nav>
           </div>

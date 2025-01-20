@@ -1,4 +1,3 @@
-
 <footer class="bg-gray-50 text-gray-600 border-t border-gray-200">
   <div class="flex flex-wrap justify-around items-start max-w-5xl mx-auto py-10 px-5">
     <!-- Logo Section -->
@@ -47,71 +46,109 @@
 
   <div class="text-center py-4 border-t border-gray-200">
     <p class="text-sm text-gray-500">
-      &copy; 2024 <a href="https://github.com/shibli2316/" class="text-blue-500 hover:underline">Shibli</a>. All rights reserved.
+      &copy; 2024 <a href="https://github.com/shibli2316/" class="text-blue-500 hover:underline">Shibli</a>. All rights
+      reserved.
     </p>
   </div>
 </footer>
 
 <script>
-    const menuToggle = document.getElementById('menu-toggle');
-    const menu = document.getElementById('menu');
+  const menuToggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('menu');
 
-    menuToggle.addEventListener('click', () => {
-      menu.classList.toggle('hidden'); // Show/hide the menu
-      menu.classList.toggle('animate-dropdown'); // Add animation
+  menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('hidden'); // Show/hide the menu
+    menu.classList.toggle('animate-dropdown'); // Add animation
+  });
+
+
+
+
+
+
+
+  // Mobile Menu Dropdown Handling
+  const dropdownButtons = [
+    document.getElementById("dropdownButton1"),
+    document.getElementById("dropdownButton2"),
+    document.getElementById("dropdownButton3"),
+  ];
+  const dropdownMenus = [
+    document.getElementById("dropdownMenu1"),
+    document.getElementById("dropdownMenu2"),
+    document.getElementById("dropdownMenu3"),
+  ];
+
+  dropdownButtons.forEach((button, index) => {
+    button.addEventListener("click", () => {
+      // Close all other dropdowns
+      dropdownMenus.forEach((menu, i) => {
+        if (i !== index) menu.classList.add("hidden");
+      });
+
+      // Toggle the current dropdown
+      dropdownMenus[index].classList.toggle("hidden");
+
+      // Add overlay if on mobile view
+      if (!dropdownMenus[index].classList.contains("hidden")) {
+        addOverlay();
+      } else {
+        removeOverlay();
+      }
     });
+  });
 
-    
+  // Close dropdowns when clicking outside
+  document.addEventListener("click", (event) => {
+    const isDropdown = dropdownButtons.some((button) => button.contains(event.target));
+    const isMenu = dropdownMenus.some((menu) => menu.contains(event.target));
+    if (!isDropdown && !isMenu) {
+      dropdownMenus.forEach((menu) => menu.classList.add("hidden"));
+      removeOverlay();
+    }
+  });
 
+  // Add overlay for mobile view
+  function addOverlay() {
+    if (!document.querySelector(".mobile-overlay")) {
+      const overlay = document.createElement("div");
+      overlay.className = "mobile-overlay";
+      document.body.appendChild(overlay);
 
+      // Close dropdowns if overlay is clicked
+      overlay.addEventListener("click", () => {
+        dropdownMenus.forEach((menu) => menu.classList.add("hidden"));
+        removeOverlay();
+      });
+    }
+  }
 
+  // Remove overlay
+  function removeOverlay() {
+    const overlay = document.querySelector(".mobile-overlay");
+    if (overlay) overlay.remove();
+  }
 
+</script>
 
-     // Toggle visibility of dropdown menus
-     const dropdownButtons = [
-            document.getElementById("dropdownButton1"),
-            document.getElementById("dropdownButton2"),
-            document.getElementById("dropdownButton3")
-          ];
+<style>
+  /* Dropdown animation */
+  #menu.animate-dropdown {
+    animation: dropdown 0.3s ease-in-out forwards;
+  }
 
-          const dropdownMenus = [
-            document.getElementById("dropdownMenu1"),
-            document.getElementById("dropdownMenu2"),
-            document.getElementById("dropdownMenu3")
-          ];
-
-          dropdownButtons.forEach((button, index) => {
-            button.addEventListener("click", () => {
-              dropdownMenus[index].classList.toggle("hidden");
-            });
-          });
-
-          // Optional: Close dropdowns when clicking outside
-          document.addEventListener("click", (event) => {
-            dropdownButtons.forEach((button, index) => {
-              if (!button.contains(event.target) && !dropdownMenus[index].contains(event.target)) {
-                dropdownMenus[index].classList.add("hidden");
-              }
-            });
-          });   
-  </script>
-
-  <style>
-    /* Dropdown animation */
-    #menu.animate-dropdown {
-      animation: dropdown 0.3s ease-in-out forwards;
+  @keyframes dropdown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
     }
 
-    @keyframes dropdown {
-      from {
-        opacity: 0;
-        transform: translateY(-20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    to {
+      opacity: 1;
+      transform: translateY(0);
     }
-  </style>
+  }
+</style>
 </body>
+
 </html>

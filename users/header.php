@@ -11,6 +11,32 @@
   <title>Bahujan Scholars</title>
 </head>
 
+<style>
+  #dropdownMenu1,
+  #dropdownMenu2,
+  #dropdownMenu3 {
+    background-color: white;
+    /* Explicit background */
+    z-index: 50;
+    /* Ensure above other elements */
+    opacity: 1;
+    /* Remove any inherited transparency */
+  }
+
+  /* Optional Overlay for Better Experience on Mobile */
+  .mobile-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent overlay */
+    z-index: 40;
+    /* Below dropdown but above body */
+  }
+</style>
+
 <body class="bg-gray-100 text-gray-800">
   <header class="sticky top-0 z-50 bg-opacity-80 backdrop-blur-lg bg-white shadow-md">
     <div class="container mx-auto flex items-center justify-between px-6 py-4">
@@ -53,7 +79,8 @@
                 class="hidden absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg">
                 <li><a href="event.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Events</a></li>
                 <li><a href="archeives.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Archeives</a></li>
-                <li><a href="testimonial.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Testimonials</a></li>
+                <li><a href="testimonial.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Testimonials</a>
+                </li>
               </ul>
             </li>
 
@@ -66,7 +93,7 @@
               </button>
 
               <ul id="dropdownMenu3"
-                class="hidden absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg">
+                class="hidden absolute left-0 mt-2 w-48 bg-white bg-opacity-100 border border-gray-200 rounded-md shadow-lg z-50">
                 <li><a href="mentor.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Our Mentors</a></li>
                 <li class="m-2">
                   <a href="mentorSignUp.php"
@@ -76,6 +103,7 @@
                 </li>
               </ul>
             </li>
+
 
             <!-- Dropdown Menu 3 -->
             <li class="relative">
