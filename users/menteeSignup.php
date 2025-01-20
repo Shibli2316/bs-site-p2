@@ -6,7 +6,7 @@ include "header.php";
     <!-- Author: FormBold Team -->
     <div class="mx-auto w-full max-w-[600px] bg-white shadow-lg rounded-lg">
         <form class="space-y-6 px-6 sm:px-8 py-8 sm:py-10">
-            <h2 class="text-3xl font-semibold text-center text-[#07074D] mb-8">Event Signup Form</h2>
+            <h2 class="text-3xl font-semibold text-center text-[#07074D] mb-8">Mentee Signup Form</h2>
 
             <!-- Full Name Field -->
             <label class="text-xl font-semibold text-[#07074D]">Personal Information</label>
@@ -199,7 +199,7 @@ include "header.php";
             <div class="text-center">
                 <button type="submit"
                     class="w-full bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white rounded-md hover:bg-[#5A50D1] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] transition duration-300">
-                    Enroll In Event
+                    Become a Mentee
                 </button>
             </div>
         </form>

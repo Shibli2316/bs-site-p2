@@ -18,22 +18,23 @@ include "includes/header.php";
 
       <hr class="border-2C5F2D">
 
-      <p class=" text-gray-500 md:mt-4 md:block text-justify">
-        Historically, disadvantaged communities in India have faced significant barriers to accessing education.
-        This exclusion continues to be a pressing issue, particularly in higher education. disadvantaged communities
-        are underrepresented in elite institutions, and systemic barriers hinder their ability to earn degrees.
-        Despite decades of this status quo, systemic change seems elusive. Research demonstrates the positive impact
-        of mentoring on mentees' outcomes and their engagement in their communities. Mentoring is especially crucial
-        for youth from disadvantaged backgrounds, providing hope, role models, guidance, and support that formal
-        education often lacks. The Bahujan Scholarss group, started on WhatsApp, aims to connect Bahujan Scholarss
-        from outside India. This rapidly growing group, with 86 members, includes graduate students, faculty, and
-        Scholarss. Its purpose is to foster mentoring, support Bahujan Scholarss, and organize online events.
-      </p>
+      <p class="text-gray-500 text-lg leading-8 md:mt-4 md:block text-justify">
+  Historically, disadvantaged communities in India have faced significant barriers to accessing education. 
+  This exclusion continues to be a pressing issue, particularly in higher education. Disadvantaged communities 
+  are underrepresented in elite institutions, and systemic barriers hinder their ability to earn degrees. 
+  Despite decades of this status quo, systemic change seems elusive. Research demonstrates the positive impact 
+  of mentoring on mentees' outcomes and their engagement in their communities. Mentoring is especially crucial 
+  for youth from disadvantaged backgrounds, providing hope, role models, guidance, and support that formal 
+  education often lacks. The Bahujan Scholars group, started on WhatsApp, aims to connect Bahujan Scholars 
+  from outside India. This rapidly growing group, with 86 members, includes graduate students, faculty, and 
+  Scholars. Its purpose is to foster mentoring, support Bahujan Scholars, and organize online events.
+</p>
+
 
       <div class="mt-4 md:mt-8 text-center">
         <a href="auth/authenticate.php"
-          class="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400">
-          Join Today
+          class="inline-block rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400">
+          Join
         </a>
       </div>
     </div>
@@ -46,35 +47,33 @@ include "includes/header.php";
 <!-- START OF SECTION 2 -->
 
 <section class="text-center py-12 bg-gray-100 mt-8">
-  <div class="flex flex-wrap gap-5 justify-center">
-    <div class="bg-blue-600 text-white w-64 p-5 rounded-lg shadow-lg relative pt-12">
+  <div class="flex flex-wrap gap-8 justify-center">
+    <div class="bg-blue-600 text-white w-72 p-6 rounded-lg shadow-lg relative pt-14">
       <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center absolute top-[-40px] left-1/2 transform -translate-x-1/2 shadow-md">
         <img src="assets/vission.jpg" alt="Vision Icon" class="w-12 h-auto">
       </div>
-      <h3 class="text-lg font-bold mt-10 mb-2">Vision</h3>
-      <p class="text-sm leading-6">Bahujan Scholars mentors and empower disadvantaged youth, inspiring them to become
-        committed professionals and transform their lives.</p>
+      <h3 class="text-xl font-bold mt-10 mb-3">Vision</h3>
+      <p class="text-base leading-7">Bahujan Scholars mentors and empowers disadvantaged youth, inspiring them to become committed professionals and transform their lives.</p>
     </div>
 
-    <div class="bg-red-600 text-white w-64 p-5 rounded-lg shadow-lg relative pt-12">
+    <div class="bg-red-600 text-white w-72 p-6 rounded-lg shadow-lg relative pt-14">
       <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center absolute top-[-40px] left-1/2 transform -translate-x-1/2 shadow-md">
         <img src="assets/mission.jpg" alt="Mission Icon" class="w-12 h-auto">
       </div>
-      <h3 class="text-lg font-bold mt-10 mb-2">Mission</h3>
-      <p class="text-sm leading-6">To mentor young Scholars from disadvantaged communities for graduate programs in
-        India and abroad, and to institutionalize mentoring practices in India.</p>
+      <h3 class="text-xl font-bold mt-10 mb-3">Mission</h3>
+      <p class="text-base leading-7">To mentor young Scholars from disadvantaged communities for graduate programs in India and abroad, and to institutionalize mentoring practices in India.</p>
     </div>
 
-    <div class="bg-green-600 text-white w-64 p-5 rounded-lg shadow-lg relative pt-12">
+    <div class="bg-green-600 text-white w-72 p-6 rounded-lg shadow-lg relative pt-14">
       <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center absolute top-[-40px] left-1/2 transform -translate-x-1/2 shadow-md">
         <img src="assets/value.jpg" alt="Values Icon" class="w-12 h-auto">
       </div>
-      <h3 class="text-lg font-bold mt-10 mb-2">Values</h3>
-      <p class="text-sm leading-6">Bahujan Scholars is committed to the <i>"pay back to the society"</i> philosophy and
-        for intellectual and educational advancement of disadvantaged communities.</p>
+      <h3 class="text-xl font-bold mt-10 mb-3">Values</h3>
+      <p class="text-base leading-7">Bahujan Scholars is committed to the <i>"pay back to the society"</i> philosophy and for intellectual and educational advancement of disadvantaged communities.</p>
     </div>
   </div>
 </section>
+
 
 <!-- END OF SECTION 2 -->
 

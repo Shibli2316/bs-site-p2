@@ -41,10 +41,16 @@
   <header class="sticky top-0 z-50 bg-opacity-80 backdrop-blur-lg bg-white shadow-md">
     <div class="container mx-auto flex items-center justify-between px-6 py-4">
       <!-- Logo and Name (aligned to top-left) -->
-      <div class="flex items-center space-x-3">
-        <img src="../assets/logo.png" alt="Bahujan Scholars Logo" class="w-10 h-10">
-        <span class="text-xl font-bold text-green-700">Bahujan Scholars</span>
-      </div>
+      <a href="dashboard.php">
+        <div class="flex items-center space-x-3">
+          <img src="../assets/logo.png" alt="Bahujan Scholars Logo" class="w-10 h-10">
+          <div class="flex flex-col">
+            <span class="text-xl font-bold text-blue-500">Bahujan Scholars</span>
+            <span class="text-sm text-gray-500">Mentoring for Social Transformation</span>
+          </div>
+        </div>
+
+      </a>
 
       <!-- Hamburger Button and Navigation Menu (aligned to top-right) -->
       <div class="flex items-center space-x-4">
@@ -59,8 +65,9 @@
         <nav id="menu"
           class="hidden lg:flex lg:space-x-6 absolute lg:static top-16 left-0 w-full bg-white shadow-lg lg:shadow-none lg:bg-transparent lg:top-auto lg:left-auto z-40">
           <ul class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
-            <li><a href="dashboard.php" class="hover:text-green-700 block px-4 py-2">Home</a></li>
-            <li><a href="antiCast.php" class="hover:text-green-700 block px-4 py-2">Anti Cast Campaign</a></li>
+            <li><a href="dashboard.php" class="hover:text-blue-500 block px-4 py-2">Home</a></li>
+            <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2">Anti Cast Campaign</a></li>
+            <li><a href="event.php" class="hover:text-blue-500 block px-4 py-2">Events</a></li>
 
             <li>
               <a href="https://www.youtube.com/@BahujanScholars-up6ek" class="hover:text-red-600 block px-4 py-2">
@@ -71,13 +78,13 @@
             <!-- Dropdown Menu 1 -->
             <li class="relative">
               <button id="dropdownButton1"
-                class="hover:text-green-700 block px-4 py-2 focus:outline-none bg-transparent z-50">
-                Events
+                class="hover:text-blue-500 block px-4 py-2 focus:outline-none bg-transparent z-50">
+                Initiatives
               </button>
 
               <ul id="dropdownMenu1"
                 class="hidden absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg">
-                <li><a href="event.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Events</a></li>
+                <li><a href="program.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Program</a></li>
                 <li><a href="archeives.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Archeives</a></li>
                 <li><a href="testimonial.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Testimonials</a>
                 </li>
@@ -88,7 +95,7 @@
 
             <li class="relative">
               <button id="dropdownButton3"
-                class="hover:text-green-700 block px-4 py-2 focus:outline-none bg-transparent z-50">
+                class="hover:text-blue-500 block px-4 py-2 focus:outline-none bg-transparent z-50">
                 Mentorship
               </button>
 
@@ -97,8 +104,14 @@
                 <li><a href="mentor.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Our Mentors</a></li>
                 <li class="m-2">
                   <a href="mentorSignUp.php"
-                    class="block px-4 py-2 text-white bg-green-700 hover:bg-green-800 rounded-md focus:outline-none">
-                    Become a Member
+                    class="block px-4 py-2 text-white bg-blue-500 hover:bg-green-800 rounded-md focus:outline-none">
+                    Become a Mentor
+                  </a>
+                </li>
+                <li class="m-2">
+                  <a href="menteeSignup.php"
+                    class="block px-4 py-2 text-white bg-blue-500 hover:bg-green-800 rounded-md focus:outline-none">
+                    Become a Mentee
                   </a>
                 </li>
               </ul>
@@ -108,7 +121,7 @@
             <!-- Dropdown Menu 3 -->
             <li class="relative">
               <button id="dropdownButton2"
-                class="hover:text-green-700 block px-4 py-2 focus:outline-none bg-transparent">
+                class="hover:text-blue-500 block px-4 py-2 focus:outline-none bg-transparent">
                 Profile
               </button>
 

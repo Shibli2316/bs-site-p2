@@ -28,9 +28,9 @@ include "header.php";
                     <p class="text-sm text-gray-300">Participants Worldwide</p>
                 </div>
                 <div class="text-center flex items-center justify-center">
-                    <a href="menteeSignup.php">
+                    <a href="eventRegister.php">
                         <button
-                            class="px-4 py-2 bg-teal-500 text-white font-bold rounded-full hover:bg-teal-600">Register
+                            class="px-4 py-2 bg-emerald-500 text-white font-bold rounded-full hover:bg-emerald-600">Register
                             Now</button>
                     </a>
                 </div>
@@ -124,12 +124,12 @@ include "header.php";
             <img src="../assets/why-mentor.jpg" alt="Speaker" class="rounded-full mx-auto">
         </div>
         <div class="w-full sm:w-2/3 sm:pl-6 mt-6 sm:mt-0">
-            <h3 class="text-2xl font-semibold text-teal-500 mb-4">About the Speaker</h3>
+            <h3 class="text-2xl font-semibold text-blue-500 mb-4">About the Speaker</h3>
             <p class="text-gray-600 text-lg leading-relaxed">Bharat is a remarkable person whose passion for social work and making a positive change in society is evident in everything he does. His tireless efforts and unwavering dedication to improving the lives of others are commendable. Bharat’s contributions to the community serve as an inspiration to all who know him.</p>
         </div>
     </div>
 
-    <!-- Testimonial Section -->
+    
 
 
 </div>
@@ -138,7 +138,7 @@ include "header.php";
 
 
 
-
+<!-- Testimonial Section -->
 
 <link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
 

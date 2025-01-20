@@ -93,7 +93,7 @@ include "header.php";
             <img src="../assets/why-mentor.jpg" alt="Speaker" class="rounded-full mx-auto">
         </div>
         <div class="w-full sm:w-2/3 sm:pl-6 mt-6 sm:mt-0">
-            <h3 class="text-2xl font-semibold text-teal-500 mb-4">About the Speaker</h3>
+            <h3 class="text-2xl font-semibold text-blue-500 mb-4">About the Speaker</h3>
             <p class="text-gray-600 text-lg leading-relaxed">Bharat is a remarkable person whose passion for social work
                 and making a positive change in society is evident in everything he does. His tireless efforts and
                 unwavering dedication to improving the lives of others are commendable. Bharat’s contributions to the
