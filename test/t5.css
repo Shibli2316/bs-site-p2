@@ -1,0 +1,64 @@
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 20px;
+    background-color: #F4E3C3; /* Golden Beige */
+    text-align: center;
+  }
+  
+  .testimonials h1 {
+    font-size: 2rem;
+    color: #2C5F2D; /* Forest Green */
+    margin-bottom: 10px;
+  }
+  
+  .testimonials .subheading {
+    color: #003366; /* Deep Blue */
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+  }
+  
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .testimonial {
+    background-color: #FFFFFF; /* White */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .testimonial .quote {
+    font-style: italic;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial .author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .testimonial .author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonial .author h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #2C5F2D; /* Forest Green */
+  }
+  
+  .testimonial .author p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555; /* Muted Gray */
+  }
+  
