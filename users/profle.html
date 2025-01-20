@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Section</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f6fa;
+        }
+
+        .profile-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-banner {
+            height: 200px;
+            background-image: url('https://via.placeholder.com/800x200'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 5px solid white;
+            position: absolute;
+            bottom: -60px;
+            left: calc(50% - 60px);
+            overflow: hidden;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-info {
+            text-align: center;
+            padding: 60px 20px 20px;
+        }
+
+        .profile-info h2 {
+            margin: 10px 0 5px;
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .profile-info p {
+            margin: 5px 0;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid #e9ecef;
+            padding: 10px 0;
+        }
+
+        .stats div {
+            text-align: center;
+        }
+
+        .stats div span {
+            display: block;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .connect-btn {
+            display: inline-block;
+            background-color: #ff007b;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .bio {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.95em;
+            color: #6c757d;
+        }
+
+        .bio a {
+            color: #ff007b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .bio a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-banner"></div>
+        <div class="profile-picture">
+            <img src="https://via.placeholder.com/120" alt="Profile Picture"> <!-- Replace with profile image URL -->
+        </div>
+        <div class="profile-info">
+            <h2>Jenna Stones</h2>
+            <p>Los Angeles, California</p>
+            <p>Solution Manager - Creative Tim Officer<br>University of Computer Science</p>
+            <a href="#" class="connect-btn">CONNECT</a>
+        </div>
+        <div class="stats">
+            <div>
+                <span>22</span>
+                Friends
+            </div>
+            <div>
+                <span>10</span>
+                Photos
+            </div>
+            <div>
+                <span>89</span>
+                Comments
+            </div>
+        </div>
+        <div class="bio">
+            <p>
+                An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.
+                <a href="#">Show more</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -11,10 +11,12 @@
     <header class="sticky top-0 z-50 bg-opacity-80 backdrop-blur-lg bg-white shadow-md">
         <div class="container mx-auto flex items-center justify-between px-6 py-4">
           <!-- Logo and Name (aligned to top-left) -->
+          <a href="index.php">
           <div class="flex items-center space-x-3">
             <img src="assets/logo.png" alt="Bahujan Scholars Logo" class="w-10 h-10">
             <span class="text-xl font-bold text-green-700">Bahujan Scholars</span>
           </div>
+          </a>
     
           <!-- Hamburger Button and Navigation Menu (aligned to top-right) -->
           <div class="flex items-center space-x-4">

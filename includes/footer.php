@@ -1,14 +1,15 @@
-
 <footer class="bg-gray-50 text-gray-600 border-t border-gray-200">
   <div class="flex flex-wrap justify-around items-start max-w-5xl mx-auto py-10 px-5">
     <!-- Logo Section -->
-    <div class="flex items-center gap-4 mb-8">
-      <img src="assets/logo.png" alt="Bahujan Scholars Logo" class="w-12 h-12">
-      <div>
-        <h3 class="text-xl text-blue-500 font-bold">Bahujan Scholars</h3>
-        <p class="text-sm text-gray-600 mt-2">Mentoring for social transformation.</p>
+    <a href="index.php">
+      <div class="flex items-center gap-4 mb-8">
+        <img src="assets/logo.png" alt="Bahujan Scholars Logo" class="w-12 h-12">
+        <div>
+          <h3 class="text-xl text-blue-500 font-bold">Bahujan Scholars</h3>
+          <p class="text-sm text-gray-600 mt-2">Mentoring for social transformation.</p>
+        </div>
       </div>
-    </div>
+    </a>
 
     <!-- Quick Links -->
     <div class="mb-8">
@@ -33,7 +34,7 @@
         </li>
         <li>
           <a href="https://www.youtube.com/@BahujanScholars-up6ek" target="_blank"
-            class="text-gray-600 text-xl hover:text-blue-500 transition">
+            class="text-gray-600 text-xl hover:text-red-500 transition">
             <i class="fab fa-youtube"></i>
           </a>
         </li>
@@ -47,37 +48,40 @@
 
   <div class="text-center py-4 border-t border-gray-200">
     <p class="text-sm text-gray-500">
-      &copy; 2024 <a href="https://github.com/shibli2316/" class="text-blue-500 hover:underline">Shibli</a>. All rights reserved.
+      &copy; 2024 <a href="https://github.com/shibli2316/" class="text-blue-500 hover:underline">Shibli</a>. All rights
+      reserved.
     </p>
   </div>
 </footer>
 
 <script>
-    const menuToggle = document.getElementById('menu-toggle');
-    const menu = document.getElementById('menu');
+  const menuToggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('menu');
 
-    menuToggle.addEventListener('click', () => {
-      menu.classList.toggle('hidden'); // Show/hide the menu
-      menu.classList.toggle('animate-dropdown'); // Add animation
-    });
-  </script>
+  menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('hidden'); // Show/hide the menu
+    menu.classList.toggle('animate-dropdown'); // Add animation
+  });
+</script>
 
-  <style>
-    /* Dropdown animation */
-    #menu.animate-dropdown {
-      animation: dropdown 0.3s ease-in-out forwards;
+<style>
+  /* Dropdown animation */
+  #menu.animate-dropdown {
+    animation: dropdown 0.3s ease-in-out forwards;
+  }
+
+  @keyframes dropdown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
     }
 
-    @keyframes dropdown {
-      from {
-        opacity: 0;
-        transform: translateY(-20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    to {
+      opacity: 1;
+      transform: translateY(0);
     }
-  </style>
+  }
+</style>
 </body>
+
 </html>
