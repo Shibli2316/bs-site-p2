@@ -33,7 +33,7 @@
           Join the budding community of scholars from all around the GLOBE!!!!
         </p>
 
-        <form action="#" class="mt-8 grid grid-cols-6 gap-6">
+        <form action="authenticate.php" class="mt-8 grid grid-cols-6 gap-6">
           <div class="col-span-6 sm:col-span-3">
             <label for="FirstName" class="block text-sm font-medium text-gray-700">
               First Name

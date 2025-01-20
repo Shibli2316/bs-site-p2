@@ -60,18 +60,18 @@ include "includes/header.php";
       
       <!-- Leader 1 -->
       <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full max-w-xs lg:w-96">
-        <img src="assets/leader1.jpg" alt="Leader 1" class="w-32 h-32 rounded-full mb-4 object-cover">
-        <h3 class="text-xl font-semibold text-teal-500 mb-2">Jessica Kobessi</h3>
-        <p class="text-gray-600 text-lg mb-4">VFX / Graphics Head</p>
-        <p class="text-gray-500 text-sm">Jessica Kobessi is a renowned VFX and Graphics Head with over 12 years of experience in the industry. Her work has captivated audiences globally, combining artistic vision with technical expertise. She is passionate about mentoring young designers and pushing the boundaries of creativity in visual storytelling.</p>
+        <img src="assets/Photo-Bharat.jpeg" alt="Leader 1" class="w-32 h-32 rounded-full mb-4 object-cover">
+        <h3 class="text-xl font-semibold text-teal-500 mb-2">Bharat</h3>
+        <p class="text-gray-600 text-lg mb-4">Head</p>
+        <p class="text-gray-500 text-sm">Bharat is a remarkable person whose passion for social work and making a positive change in society is evident in everything he does. His tireless efforts and unwavering dedication to improving the lives of others are commendable. Bharat’s contributions to the community serve as an inspiration to all who know him.</p>
       </div>
       
       <!-- Leader 2 -->
       <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full max-w-xs lg:w-96">
-        <img src="assets/leader2.jpg" alt="Leader 2" class="w-32 h-32 rounded-full mb-4 object-cover">
-        <h3 class="text-xl font-semibold text-teal-500 mb-2">John Doe</h3>
-        <p class="text-gray-600 text-lg mb-4">Project Manager</p>
-        <p class="text-gray-500 text-sm">John Doe is an experienced project manager with over 10 years of leading successful teams. His focus is on delivering innovative solutions that push boundaries while ensuring seamless project execution. His leadership ensures every project reaches its potential and exceeds expectations.</p>
+        <img src="assets/Photo-Ajeet.jpeg" alt="Leader 2" class="w-32 h-32 rounded-full mb-4 object-cover">
+        <h3 class="text-xl font-semibold text-teal-500 mb-2">Ajeet</h3>
+        <p class="text-gray-600 text-lg mb-4">Manager</p>
+        <p class="text-gray-500 text-sm">Ajeet is a compassionate and dedicated individual who is always ready to lend a helping hand in his community. His commitment to social work and the well-being of others is truly inspiring. Ajeet’s efforts have positively impacted many lives, and his selfless service continues to make a significant difference in the world.</p>
       </div>
 
     </div>

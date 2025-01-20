@@ -30,7 +30,7 @@
 
         
 
-        <form action="#" class="mt-8 grid grid-cols-6 gap-6">
+        <form action="../users/dashboard.php" class="mt-8 grid grid-cols-6 gap-6">
           
 
           <div class="col-span-6">

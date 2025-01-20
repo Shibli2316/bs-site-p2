@@ -14,10 +14,10 @@
     <div class="mb-8">
       <h4 class="text-lg text-blue-500 font-semibold mb-4">Quick Links</h4>
       <ul class="space-y-2">
-        <li><a href="index.php" class="text-gray-600 hover:text-blue-500 text-sm">Home</a></li>
-        <li><a href="about.php" class="text-gray-600 hover:text-blue-500 text-sm">About</a></li>
-        <li><a href="faq.php" class="text-gray-600 hover:text-blue-500 text-sm">FAQ</a></li>
-        <li><a href="contact.php" class="text-gray-600 hover:text-blue-500 text-sm">Contact</a></li>
+        <li><a href="dashboard.php" class="text-gray-600 hover:text-blue-500 text-sm">Home</a></li>
+        <li><a href="antiCast.php" class="text-gray-600 hover:text-blue-500 text-sm">Anti Cast Compaign</a></li>
+        <li><a href="event.php" class="text-gray-600 hover:text-blue-500 text-sm">Events</a></li>
+        <li><a href="mentor.php" class="text-gray-600 hover:text-blue-500 text-sm">Mentoring</a></li>
       </ul>
     </div>
 
@@ -60,6 +60,40 @@
       menu.classList.toggle('hidden'); // Show/hide the menu
       menu.classList.toggle('animate-dropdown'); // Add animation
     });
+
+    
+
+
+
+
+
+     // Toggle visibility of dropdown menus
+     const dropdownButtons = [
+            document.getElementById("dropdownButton1"),
+            document.getElementById("dropdownButton2"),
+            document.getElementById("dropdownButton3")
+          ];
+
+          const dropdownMenus = [
+            document.getElementById("dropdownMenu1"),
+            document.getElementById("dropdownMenu2"),
+            document.getElementById("dropdownMenu3")
+          ];
+
+          dropdownButtons.forEach((button, index) => {
+            button.addEventListener("click", () => {
+              dropdownMenus[index].classList.toggle("hidden");
+            });
+          });
+
+          // Optional: Close dropdowns when clicking outside
+          document.addEventListener("click", (event) => {
+            dropdownButtons.forEach((button, index) => {
+              if (!button.contains(event.target) && !dropdownMenus[index].contains(event.target)) {
+                dropdownMenus[index].classList.add("hidden");
+              }
+            });
+          });   
   </script>
 
   <style>

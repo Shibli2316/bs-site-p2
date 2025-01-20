@@ -6,7 +6,7 @@ include "header.php";
     <!-- Author: FormBold Team -->
     <div class="mx-auto w-full max-w-[600px] bg-white shadow-lg rounded-lg">
         <form class="space-y-6 px-6 sm:px-8 py-8 sm:py-10">
-            <h2 class="text-3xl font-semibold text-center text-[#07074D] mb-8">Book Your Appointment</h2>
+            <h2 class="text-3xl font-semibold text-center text-[#07074D] mb-8">Become a mentor</h2>
 
             <!-- Full Name Field -->
             <div class="mb-6">

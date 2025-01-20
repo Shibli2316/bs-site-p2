@@ -34,12 +34,12 @@
                 <li><a href="about.php" class="hover:text-green-700 block px-4 py-2">About</a></li>
                 <li><a href="faq.php" class="hover:text-green-700 block px-4 py-2">FAQ</a></li>
                 <li><a href="contact.php" class="hover:text-green-700 block px-4 py-2">Contact</a></li>
-                <li><a href="auth/authenticate.php" class="hover:text-green-700 block px-4 py-2">Sign Up</a></li>
                 <li>
                   <a href="https://www.youtube.com/@BahujanScholars-up6ek" class="hover:text-red-600 block px-4 py-2">
                     <i class="fab fa-youtube"></i>
                   </a>
                 </li>
+                <li><a href="auth/authenticate.php" class="hover:text-green-700 block px-4 py-2">Sign Up</a></li>
               </ul>
             </nav>
           </div>
