@@ -10,9 +10,9 @@ include "includes/header.php";
   </div>
 
   <!-- Bottom-Centered Text Content -->
-  <div class="absolute bottom-12 left-1/2 transform -translate-x-1/2 text-center max-w-3xl px-4">
-    <h2 class="text-4xl font-bold mb-4 tracking-wide">Bahujan Scholars</h2>
-    <p class="text-lg leading-relaxed tracking-wide">
+  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-center max-w-3xl px-4 sm:bottom-12">
+    <h2 class="text-2xl sm:text-4xl font-bold mb-4 tracking-wide">Bahujan Scholars</h2>
+    <p class="text-sm sm:text-lg leading-6 sm:leading-relaxed tracking-normal sm:tracking-wide">
       To inspire and educate youth from disadvantaged communities in India, mentoring is an indispensable process that
       connects young persons with experienced mentors. The rapid rise of internet-based technology has made it possible
       to connect mentees from India with mentors anywhere in the world. For example, the CMC (Computer Mediated
@@ -22,6 +22,7 @@ include "includes/header.php";
     </p>
   </div>
 </section>
+
 
 <section class="flex justify-center items-center py-16 px-6 lg:px-20 text-black bg-gray-50">
   <div class="max-w-7xl text-justify leading-relaxed tracking-wide">

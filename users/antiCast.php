@@ -3,22 +3,18 @@ include "header.php";
 ?>
 
 
-
 <div class="flex items-center justify-center h-screen">
-    <div class="relative h-screen w-4/5 overflow-hidden">
+    <div class="relative h-screen w-full sm:w-4/5 overflow-hidden">
         <!-- Background Image -->
         <img src="../assets/team.jpg" alt="Profile Background"
-            class="absolute inset-0 w-full h-full object-cover rounded-lg m-4 opacity-50">
-
-
+            class="absolute inset-0 w-full h-full object-cover rounded-none sm:rounded-lg m-0 sm:m-4 opacity-50">
 
         <!-- Bottom Stats Section -->
-        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-80 py-6 m-6 rounded-lg">
-            <div class="flex justify-center items-center">
+        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-80 py-6 px-4 sm:px-6 rounded-lg">
+        <div class="flex justify-center items-center">
                 <h3 class="text-5xl font-bold text-white">Anti Caste Campaign</h3>
             </div>
         </div>
-
     </div>
 </div>
 

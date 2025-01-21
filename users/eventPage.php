@@ -5,39 +5,45 @@ include "header.php";
 
 
 <div class="flex items-center justify-center h-screen">
-    <div class="relative h-screen w-4/5 overflow-hidden">
+    <div class="relative h-screen w-full sm:w-4/5 overflow-hidden">
         <!-- Background Image -->
         <img src="../assets/team.jpg" alt="Profile Background"
-            class="absolute inset-0 w-full h-full object-cover rounded-lg m-4 opacity-50">
+            class="absolute inset-0 w-full h-full object-cover rounded-none sm:rounded-lg m-0 sm:m-4 opacity-50">
 
         <!-- Overlay for Name and Title -->
-        <div class="absolute inset-0 flex flex-col justify-center items-center text-center">
-            <h2 class="text-6xl font-bold text-black">Good Event</h2>
-            <p class="text-xl text-black-200 mt-2">Ajeet</p>
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
+            <h2 class="text-4xl sm:text-6xl font-bold text-black">Good Event</h2>
+            <p class="text-lg sm:text-xl text-black-200 mt-2">Ajeet</p>
         </div>
 
         <!-- Bottom Stats Section -->
-        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-80 py-6 m-6 rounded-lg">
-            <div class="flex justify-evenly">
+        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-80 py-6 px-4 sm:px-6 rounded-lg">
+            <div class="flex flex-col sm:flex-row sm:justify-evenly gap-6 sm:gap-0">
+                <!-- Hours -->
                 <div class="text-center">
-                    <h3 class="text-5xl font-bold text-white">20</h3>
+                    <h3 class="text-3xl sm:text-5xl font-bold text-white">20</h3>
                     <p class="text-sm text-gray-300">Hours</p>
                 </div>
+
+                <!-- Participants Worldwide -->
                 <div class="text-center">
-                    <h3 class="text-5xl font-bold text-white">720</h3>
+                    <h3 class="text-3xl sm:text-5xl font-bold text-white">720</h3>
                     <p class="text-sm text-gray-300">Participants Worldwide</p>
                 </div>
+
+                <!-- Register Button -->
                 <div class="text-center flex items-center justify-center">
                     <a href="eventRegister.php">
-                        <button
-                            class="px-4 py-2 bg-emerald-500 text-white font-bold rounded-full hover:bg-emerald-600">Register
-                            Now</button>
+                        <button class="px-4 py-2 bg-emerald-500 text-white font-bold rounded-full hover:bg-emerald-600">
+                            Register Now
+                        </button>
                     </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 
 <!-- Additional Sections -->
@@ -65,7 +71,13 @@ include "header.php";
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center mb-12">
         <div class="col-span-full">
             <h3 class="text-lg font-bold">Good Event</h3>
-            <p class="text-gray-500">A great social event brings together people from diverse backgrounds, fostering a sense of community and unity. It serves as a platform for individuals to engage, share ideas, and create meaningful connections. Whether it's a charity fundraiser, a cultural gathering, or a local meet-up, such events are characterized by warmth, inclusivity, and positive energy. They offer an opportunity for participants to not only have fun but also contribute to causes greater than themselves, making a lasting impact on both individuals and the community as a whole. Through collaborative efforts, these social events help build stronger, more compassionate societies.</p>
+            <p class="text-gray-500">A great social event brings together people from diverse backgrounds, fostering a
+                sense of community and unity. It serves as a platform for individuals to engage, share ideas, and create
+                meaningful connections. Whether it's a charity fundraiser, a cultural gathering, or a local meet-up,
+                such events are characterized by warmth, inclusivity, and positive energy. They offer an opportunity for
+                participants to not only have fun but also contribute to causes greater than themselves, making a
+                lasting impact on both individuals and the community as a whole. Through collaborative efforts, these
+                social events help build stronger, more compassionate societies.</p>
         </div>
     </div>
 
@@ -90,12 +102,12 @@ include "header.php";
         <div class="bg-gray-50 p-6 rounded-lg">
             <h3 class="text-xl font-bold mb-4">What you will Learn</h3>
             <div class="mb-4">
-                
+
                 <h4 class="font-semibold">Creative Design</h4>
                 <p class="text-gray-500">iacentem substantiates um se sed esse haec Possit facis qui a a a patriam.</p>
             </div>
             <div>
-                
+
                 <h4 class="font-semibold">Project Management</h4>
                 <p class="text-gray-500">iacentem substantiates um se sed esse haec Possit facis qui a a a patriam.</p>
             </div>
@@ -105,12 +117,12 @@ include "header.php";
         <div class="bg-gray-100 p-6 rounded-lg">
             <h3 class="text-xl font-bold mb-4">Future Aspects</h3>
             <div class="mb-4">
-                
+
                 <h4 class="font-semibold">Bachelors in Engineering in Information Technology</h4>
                 <p class="text-gray-500">Bachelors in Engineering in Information Technology</p>
             </div>
             <div>
-                
+
                 <h4 class="font-semibold">Masters in Data Analysis</h4>
                 <p class="text-gray-500">Harvard School of Science and Management</p>
             </div>
@@ -125,11 +137,14 @@ include "header.php";
         </div>
         <div class="w-full sm:w-2/3 sm:pl-6 mt-6 sm:mt-0">
             <h3 class="text-2xl font-semibold text-blue-500 mb-4">About the Speaker</h3>
-            <p class="text-gray-600 text-lg leading-relaxed">Bharat is a remarkable person whose passion for social work and making a positive change in society is evident in everything he does. His tireless efforts and unwavering dedication to improving the lives of others are commendable. Bharat’s contributions to the community serve as an inspiration to all who know him.</p>
+            <p class="text-gray-600 text-lg leading-relaxed">Bharat is a remarkable person whose passion for social work
+                and making a positive change in society is evident in everything he does. His tireless efforts and
+                unwavering dedication to improving the lives of others are commendable. Bharat’s contributions to the
+                community serve as an inspiration to all who know him.</p>
         </div>
     </div>
 
-    
+
 
 
 </div>
@@ -241,7 +256,12 @@ include "header.php";
                                 <p class="text-2xl font-bold text-rose-600 sm:text-3xl">Very Good</p>
 
                                 <p class="mt-4 leading-relaxed text-gray-700">
-                                    "The Anti-Caste Campaign event was truly inspiring! It brought together individuals from all walks of life, united in the mission to raise awareness and make a difference. The atmosphere was filled with energy and positivity, and it was heartwarming to see so many people coming together to support such an important cause. I left the event feeling motivated and hopeful, knowing that change is possible when we work together."
+                                    "The Anti-Caste Campaign event was truly inspiring! It brought together individuals
+                                    from all walks of life, united in the mission to raise awareness and make a
+                                    difference. The atmosphere was filled with energy and positivity, and it was
+                                    heartwarming to see so many people coming together to support such an important
+                                    cause. I left the event feeling motivated and hopeful, knowing that change is
+                                    possible when we work together."
                                 </p>
                             </div>
                         </div>
@@ -291,7 +311,12 @@ include "header.php";
                                 <p class="text-2xl font-bold text-rose-600 sm:text-3xl">Very Good</p>
 
                                 <p class="mt-4 leading-relaxed text-gray-700">
-                                    "The Anti-Caste Campaign event was truly inspiring! It brought together individuals from all walks of life, united in the mission to raise awareness and make a difference. The atmosphere was filled with energy and positivity, and it was heartwarming to see so many people coming together to support such an important cause. I left the event feeling motivated and hopeful, knowing that change is possible when we work together."
+                                    "The Anti-Caste Campaign event was truly inspiring! It brought together individuals
+                                    from all walks of life, united in the mission to raise awareness and make a
+                                    difference. The atmosphere was filled with energy and positivity, and it was
+                                    heartwarming to see so many people coming together to support such an important
+                                    cause. I left the event feeling motivated and hopeful, knowing that change is
+                                    possible when we work together."
                                 </p>
                             </div>
                         </div>
@@ -341,7 +366,12 @@ include "header.php";
                                 <p class="text-2xl font-bold text-rose-600 sm:text-3xl">Very Good</p>
 
                                 <p class="mt-4 leading-relaxed text-gray-700">
-                                    "The Anti-Caste Campaign event was truly inspiring! It brought together individuals from all walks of life, united in the mission to raise awareness and make a difference. The atmosphere was filled with energy and positivity, and it was heartwarming to see so many people coming together to support such an important cause. I left the event feeling motivated and hopeful, knowing that change is possible when we work together."
+                                    "The Anti-Caste Campaign event was truly inspiring! It brought together individuals
+                                    from all walks of life, united in the mission to raise awareness and make a
+                                    difference. The atmosphere was filled with energy and positivity, and it was
+                                    heartwarming to see so many people coming together to support such an important
+                                    cause. I left the event feeling motivated and hopeful, knowing that change is
+                                    possible when we work together."
                                 </p>
                             </div>
                         </div>
