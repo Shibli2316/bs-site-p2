@@ -11,7 +11,7 @@ include "header.php";
 
         <!-- Bottom Stats Section -->
         <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-80 py-6 px-4 sm:px-6 rounded-lg">
-        <div class="flex justify-center items-center">
+            <div class="flex justify-center items-center">
                 <h3 class="text-5xl font-bold text-white">Anti Caste Campaign</h3>
             </div>
         </div>
@@ -26,10 +26,25 @@ include "header.php";
         <div class="col-span-full">
             <div class="text-teal-500 text-4xl mb-2">✊</div>
             <h3 class="text-lg font-bold">Anti Caste Campaign</h3>
-            <p class="text-gray-500">The "Anti Caste Campaign" aims to raise awareness and promote equality in society
-                by addressing caste-based discrimination. Through workshops, discussions, and community outreach, we
-                strive to foster a more inclusive and fair environment for everyone, irrespective of their caste or
-                background.</p>
+            <p class="text-lg mb-4">
+                Caste-based discrimination remains prevalent in US institutions. A <strong>2018 survey by Equality
+                    Labs</strong> revealed that <strong>1 in 4 Dalit Americans</strong> faced verbal or physical assault
+                due to caste, and <strong>1 in 3 Dalit students</strong> encountered discrimination in their education.
+                Notably, <strong>41% of Dalit students</strong> experienced caste-based microaggressions. Casteism in
+                the US has been highlighted by prominent sources like <i>NPR, The Atlantic, Al Jazeera, and Carnegie
+                    Endowment for International Peace</i>. In her 2020 book, <i>"Caste: The Origins of Our
+                    Discontents"</i>, <strong>Isabel Wilkerson</strong> stresses the importance of incorporating caste
+                in anti-discrimination policies in higher education. As activists push for caste to be included in
+                non-discrimination categories, many North American universities promote <strong>Diversity, Equity, and
+                    Inclusion (DEI)</strong> initiatives. Bahujan Scholars fully supports these campaigns and offers
+                free resources for building anti-caste initiatives. For further guidance on creating campaigns, feel
+                free to reach out at <a href="mailto:bahujanscholars.org@gmail.com"
+                    class="text-blue-500">bahujanscholars.org@gmail.com</a>.
+            </p>
+
+            <p class="text-lg text-center mt-6">
+                <strong><a href="path/to/your/file.pdf" download>Download</a> the full file to know more about this important issue.</strong>
+            </p>
         </div>
     </div>
 
@@ -38,65 +53,81 @@ include "header.php";
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <!-- Education -->
         <div class="bg-gray-100 p-6 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Chain of events</h3>
+            <h3 class="text-xl font-bold mb-4">Presentation</h3>
             <div class="mb-4">
-                <p class="text-sm text-gray-500">1998 - 2004</p>
-                <h4 class="font-semibold">Initiated the Program</h4>
-                <p class="text-gray-500">Good program</p>
+                <p class="text-gray-500">A small powerpoint presentation about it</p>
             </div>
-            <div>
-                <p class="text-sm text-gray-500">2004 - 2006</p>
-                <h4 class="font-semibold">Took Pace</h4>
-                <p class="text-gray-500">Program goes viral</p>
-            </div>
+            
+            <a href="path/to/your/file.pdf" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
         </div>
-
-        <!-- Experiences -->
-        <div class="bg-gray-50 p-6 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">What Now</h3>
-            <div class="mb-4">
-                <p class="text-sm text-gray-500">2007 - 2012</p>
-                <h4 class="font-semibold">Current Scenario</h4>
-                <p class="text-gray-500">Improving and working daily.</p>
-            </div>
-            <div>
-                <p class="text-sm text-gray-500">2013 - Present</p>
-                <h4 class="font-semibold">Takeing forward</h4>
-                <p class="text-gray-500">The community is helping in taking it forward.</p>
-            </div>
-        </div>
-
-        <!-- Interests -->
         <div class="bg-gray-100 p-6 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">What we do</h3>
+            <h3 class="text-xl font-bold mb-4">Support Letter</h3>
             <div class="mb-4">
-                <p class="text-sm text-gray-500">1998 - 2004</p>
-                <h4 class="font-semibold">Help</h4>
-                <p class="text-gray-500">We help people irrespective of cast.</p>
+                <p class="text-gray-500">Support letter for your reference</p>
             </div>
-            <div>
-                <p class="text-sm text-gray-500">2004 - 2006</p>
-                <h4 class="font-semibold">Grow</h4>
-                <p class="text-gray-500">We help everyone grow</p>
-            </div>
+            
+            <a href="path/to/your/file.pdf" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
         </div>
+        <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Cover letter</h3>
+            <div class="mb-4">
+                <p class="text-gray-500">Cover letter for your reference</p>
+            </div>
+            
+            <a href="path/to/your/file.pdf" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Support Letter</h3>
+            <div class="mb-4">
+                <p class="text-gray-500">Support letter for your reference</p>
+            </div>
+            
+            <a href="path/to/your/file.pdf" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">To the MSP</h3>
+            <div class="mb-4">
+                <p class="text-gray-500">Letter to the MSP caste in non-discrimination policy</p>
+            </div>
+            
+            <a href="path/to/your/file.pdf" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Introduction letter</h3>
+            <div class="mb-4">
+                <p class="text-gray-500">CTHe complete Introduction file</p>
+            </div>
+            
+            <a href="path/to/your/file.pdf" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
+        </div>
+       
     </div>
 
-
-    <!-- About the Speaker -->
-    <div class="m-12 bg-gray-50 p-6 rounded-lg flex flex-col sm:flex-row items-center">
-        <div class="w-full sm:w-1/3">
-            <img src="../assets/why-mentor.jpg" alt="Speaker" class="rounded-full mx-auto">
-        </div>
-        <div class="w-full sm:w-2/3 sm:pl-6 mt-6 sm:mt-0">
-            <h3 class="text-2xl font-semibold text-blue-500 mb-4">About the Speaker</h3>
-            <p class="text-gray-600 text-lg leading-relaxed">Bharat is a remarkable person whose passion for social work
-                and making a positive change in society is evident in everything he does. His tireless efforts and
-                unwavering dedication to improving the lives of others are commendable. Bharat’s contributions to the
-                community serve as an inspiration to all who know him.</p>
-        </div>
-    </div>
-
+    
 
 </div>
 
