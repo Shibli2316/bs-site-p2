@@ -5,25 +5,19 @@ include "header.php";
 <!-- Profile Section -->
 <div class="relative">
   <!-- Background Image -->
-  <div class="h-80 bg-cover bg-center rounded-t-lg" style="background-image: url('../assets/mission.jpg');"></div>
+  <div class="h-80 bg-cover bg-center rounded-t-lg" style="background-image: url('../assets/web/mission.jpg');"></div>
 
   <!-- Profile Content -->
   <div class="bg-white shadow-2xl rounded-lg max-w-4xl mx-auto -mt-28 p-6 sm:p-8 space-y-6 mb-4">
     <div class="text-center">
       <!-- Profile Picture -->
-      <div class="rounded-full border-4 border-white shadow-md overflow-hidden w-32 h-32 mx-auto">
-        <img class="w-full h-full object-cover" src="../assets/ambedkar.jpg" alt="Profile Picture">
-      </div>
+      <!-- <div class="rounded-full border-4 border-white shadow-md overflow-hidden w-32 h-32 mx-auto">
+        <img class="w-full h-full object-cover" src="../assets/web/ambedkar.jpg" alt="Profile Picture">
+      </div> -->
       <!-- Name and Location -->
       <h1 class="text-3xl font-semibold text-gray-900 mt-4 sm:text-4xl">Ajeet Shekhar</h1>
       <p class="text-gray-600 text-lg">📍 Los Angeles, California</p>
-      <!-- Job and University -->
-      <p class="text-gray-700 mt-4 flex justify-center items-center space-x-2">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-        </svg>
-        <span class="font-medium text-gray-700">Manager</span>
-      </p>
+      
       <p class="text-gray-700 flex justify-center items-center space-x-2 mt-2">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
@@ -73,6 +67,13 @@ include "header.php";
         <div class="font-semibold text-gray-600 mt-2">Research Areas:</div>
         <p class="text-gray-700">Neural Networks, Computer Vision, Data Analysis</p>
       </div>
+    </div>
+
+    <!-- Edit Button -->
+    <div class="flex justify-center mt-6">
+      <a href="edit-profile.php" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold transition duration-300 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50">
+        Edit Profile
+      </a>
     </div>
   </div>
 </div>

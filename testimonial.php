@@ -1,5 +1,5 @@
 <?php
-include "header.php";
+include "includes/header.php";
 ?>
   <div class="max-w-7xl mx-auto px-4 py-16">
     <!-- Heading Section -->
@@ -88,5 +88,5 @@ include "header.php";
   </div>
 
   <?php
-include "footer.php";
+include "includes/footer.php";
 ?>

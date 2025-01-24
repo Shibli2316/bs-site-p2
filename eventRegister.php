@@ -1,5 +1,5 @@
 <?php
-include "header.php";
+include "includes/header.php";
 ?>
 
 <div class="flex items-center justify-center p-4 sm:p-8 md:p-12 bg-gray-50">
@@ -55,5 +55,5 @@ include "header.php";
 </div>
 
 <?php
-include "footer.php";
+include "includes/footer.php";
 ?>

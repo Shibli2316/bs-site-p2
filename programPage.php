@@ -1,5 +1,5 @@
 <?php
-include "header.php";
+include "includes/header.php";
 ?>
 
 
@@ -12,7 +12,7 @@ include "header.php";
 
         <!-- Overlay for Name and Title -->
         <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
-            <h2 class="text-4xl sm:text-6xl font-bold text-black">Good Event</h2>
+            <h2 class="text-4xl sm:text-6xl font-bold text-black">Good Program</h2>
             <p class="text-lg sm:text-xl text-black-200 mt-2">Ajeet</p>
         </div>
 
@@ -70,7 +70,7 @@ include "header.php";
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center mb-12">
         <div class="col-span-full">
-            <h3 class="text-lg font-bold">Good Event</h3>
+            <h3 class="text-lg font-bold">Good Program</h3>
             <p class="text-gray-500">A great social event brings together people from diverse backgrounds, fostering a
                 sense of community and unity. It serves as a platform for individuals to engage, share ideas, and create
                 meaningful connections. Whether it's a charity fundraiser, a cultural gathering, or a local meet-up,
@@ -388,5 +388,5 @@ include "header.php";
 
 
 <?php
-include "footer.php";
+include "includes/footer.php";
 ?>

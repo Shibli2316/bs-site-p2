@@ -43,7 +43,7 @@
       <!-- Logo and Name (aligned to top-left) -->
       <a href="dashboard.php">
         <div class="flex items-center space-x-3">
-          <img src="../assets/logo.png" alt="Bahujan Scholars Logo" class="w-10 h-10">
+          <img src="../assets/web/logo.png" alt="Bahujan Scholars Logo" class="w-10 h-10">
           <div class="flex flex-col">
             <span class="text-xl font-bold text-blue-500">Bahujan Scholars</span>
             <span class="text-sm text-gray-500">Mentoring for Social Transformation</span>
@@ -67,13 +67,8 @@
           <ul class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
             <li><a href="dashboard.php" class="hover:text-blue-500 block px-4 py-2">Home</a></li>
             <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2">Anti Cast Campaign</a></li>
-            <li><a href="event.php" class="hover:text-blue-500 block px-4 py-2">Events</a></li>
 
-            <li>
-              <a href="https://www.youtube.com/@BahujanScholars-up6ek" class="hover:text-red-600 block px-4 py-2">
-                <i class="fab fa-youtube"></i>
-              </a>
-            </li>
+            
 
             <!-- Dropdown Menu 1 -->
             <li class="relative">
@@ -85,6 +80,7 @@
               <ul id="dropdownMenu1"
                 class="hidden absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg">
                 <li><a href="program.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Program</a></li>
+                <li><a href="event.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Events</a></li>
                 <li><a href="archeives.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Archeives</a></li>
                 <li><a href="testimonial.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Testimonials</a>
                 </li>
@@ -101,7 +97,8 @@
 
               <ul id="dropdownMenu3"
                 class="hidden absolute left-0 mt-2 w-48 bg-white bg-opacity-100 border border-gray-200 rounded-md shadow-lg z-50">
-                <li><a href="mentor.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Our Mentors</a></li>
+                <li><a href="https://docs.google.com/spreadsheets/d/1sZP2LMcS-fOABXL2rS_3viZfS3PUFtscT_NcpFi1NK4/edit?usp=sharing" target="_blank" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Online Directory</a></li>
+                <!-- <li><a href="" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Our Mentors</a></li> -->
                 <li class="m-2">
                   <a href="mentorSignUp.php"
                     class="block px-4 py-2 text-white bg-blue-500 hover:bg-green-800 rounded-md focus:outline-none">
@@ -114,8 +111,11 @@
                     Become a Mentee
                   </a>
                 </li>
+                
               </ul>
             </li>
+
+
 
 
             <!-- Dropdown Menu 3 -->
@@ -130,6 +130,12 @@
                 <li><a href="profile.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Setting</a></li>
                 <li><a href="logout.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Logout</a></li>
               </ul>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/@BahujanScholars-up6ek" class="hover:text-red-600 block px-4 py-2">
+                <i class="fab fa-youtube text-red-600 hover:text-red-800"></i>
+              </a>
             </li>
 
 

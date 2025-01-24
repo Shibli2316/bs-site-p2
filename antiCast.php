@@ -1,22 +1,23 @@
 <?php
-include "header.php";
+include "includes/header.php";
 ?>
 
 
 <div class="flex items-center justify-center h-screen">
     <div class="relative h-screen w-full sm:w-4/5 overflow-hidden">
         <!-- Background Image -->
-        <img src="../assets/team.jpg" alt="Profile Background"
-            class="absolute inset-0 w-full h-full object-cover rounded-none sm:rounded-lg m-0 sm:m-4 opacity-50">
+        <img src="assets/web/antiCaste.jpg" alt="Profile Background"
+            class="absolute top-0 left-1/2 transform -translate-x-1/2 h-full object-cover rounded-none sm:rounded-lg m-0 sm:m-4 opacity-50">
 
         <!-- Bottom Stats Section -->
         <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-80 py-6 px-4 sm:px-6 rounded-lg">
             <div class="flex justify-center items-center">
-                <h3 class="text-5xl font-bold text-white">Anti Caste Campaign</h3>
+                <h3 class="text-5xl font-bold text-white text-center sm:text-left">Anti Caste Campaign</h3>
             </div>
         </div>
     </div>
 </div>
+
 
 
 <!-- Additional Sections -->
@@ -43,7 +44,8 @@ include "header.php";
             </p>
 
             <p class="text-lg text-center mt-6">
-                <strong><a href="path/to/your/file.pdf" download>Download</a> the full file to know more about this important issue.</strong>
+                <strong><a href="assets/web/documents/Introduction Note.docx" download>Download</a> the full file to know more about this
+                    important issue.</strong>
             </p>
         </div>
     </div>
@@ -57,8 +59,8 @@ include "header.php";
             <div class="mb-4">
                 <p class="text-gray-500">A small powerpoint presentation about it</p>
             </div>
-            
-            <a href="path/to/your/file.pdf" download>
+
+            <a href="assets/web/documents/Anti-caste campaign@Umass.pptx" download>
                 <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
                     Download File
                 </button>
@@ -69,8 +71,8 @@ include "header.php";
             <div class="mb-4">
                 <p class="text-gray-500">Support letter for your reference</p>
             </div>
-            
-            <a href="path/to/your/file.pdf" download>
+
+            <a href="assets/web/documents/Support Letter for Anti-caste Campaign.docx" download>
                 <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
                     Download File
                 </button>
@@ -81,8 +83,8 @@ include "header.php";
             <div class="mb-4">
                 <p class="text-gray-500">Cover letter for your reference</p>
             </div>
-            
-            <a href="path/to/your/file.pdf" download>
+
+            <a href="assets/web/documents/Cover Letter for Anti-caste Support letter.docx" download>
                 <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
                     Download File
                 </button>
@@ -93,8 +95,8 @@ include "header.php";
             <div class="mb-4">
                 <p class="text-gray-500">Support letter for your reference</p>
             </div>
-            
-            <a href="path/to/your/file.pdf" download>
+
+            <a href="assets/web/documents/Anti-caste Support letter.docx" download>
                 <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
                     Download File
                 </button>
@@ -105,8 +107,8 @@ include "header.php";
             <div class="mb-4">
                 <p class="text-gray-500">Letter to the MSP caste in non-discrimination policy</p>
             </div>
-            
-            <a href="path/to/your/file.pdf" download>
+
+            <a href="assets/web/documents/Letter to the MSP_caste in non-discrimination policy.docx" download>
                 <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
                     Download File
                 </button>
@@ -115,19 +117,19 @@ include "header.php";
         <div class="bg-gray-100 p-6 rounded-lg">
             <h3 class="text-xl font-bold mb-4">Introduction letter</h3>
             <div class="mb-4">
-                <p class="text-gray-500">CTHe complete Introduction file</p>
+                <p class="text-gray-500">The complete Introduction file</p>
             </div>
-            
-            <a href="path/to/your/file.pdf" download>
+
+            <a href="assets/web/documents/Introduction Note.docx" download>
                 <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
                     Download File
                 </button>
             </a>
         </div>
-       
+
     </div>
 
-    
+
 
 </div>
 
@@ -140,5 +142,5 @@ include "header.php";
 
 
 <?php
-include "footer.php";
+include "includes/footer.php";
 ?>

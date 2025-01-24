@@ -1,5 +1,5 @@
 <?php
-include "header.php";
+include "includes/header.php";
 ?>
 
 <div class="bg-white h-full py-6 sm:py-8 lg:py-12">
@@ -15,8 +15,8 @@ include "header.php";
 
         <!-- Gallery Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            <a href="#" onclick="openModal('../assets/web/archeives/01.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
-                <img src="../assets/web/archeives/01.jpg" alt="Anti Caste"
+            <a href="#" onclick="openModal('assets/web/archeives/01.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
+                <img src="assets/web/archeives/01.jpg" alt="Anti Caste"
                     class="h-60 w-full object-cover object-center transition duration-300 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 group-hover:opacity-50"></div>
                 <div class="relative mt-auto p-4">
@@ -24,16 +24,16 @@ include "header.php";
                 </div>
             </a>
 
-            <a href="#" onclick="openModal('../assets/web/archeives/02.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
-                <img src="../assets/web/archeives/02.jpg" alt="Hindi Speaking"
+            <a href="#" onclick="openModal('assets/web/archeives/02.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
+                <img src="assets/web/archeives/02.jpg" alt="Hindi Speaking"
                     class="h-60 w-full object-cover object-center transition duration-300 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 group-hover:opacity-50"></div>
                 <div class="relative mt-auto p-4">
                     <h3 class="text-lg font-semibold text-white">Book Series</h3>
                 </div>
             </a>
-            <a href="#" onclick="openModal('../assets/web/archeives/03.png')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
-                <img src="../assets/web/archeives/03.png" alt="Hindi Speaking"
+            <a href="#" onclick="openModal('assets/web/archeives/03.png')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
+                <img src="assets/web/archeives/03.png" alt="Hindi Speaking"
                     class="h-60 w-full object-cover object-center transition duration-300 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 group-hover:opacity-50"></div>
                 <div class="relative mt-auto p-4">
@@ -41,8 +41,8 @@ include "header.php";
                 </div>
             </a>
 
-            <a href="#" onclick="openModal('../assets/web/archeives/04.png')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
-                <img src="../assets/web/archeives/04.png" alt="Hindi Speaking"
+            <a href="#" onclick="openModal('assets/web/archeives/04.png')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
+                <img src="assets/web/archeives/04.png" alt="Hindi Speaking"
                     class="h-60 w-full object-cover object-center transition duration-300 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 group-hover:opacity-50"></div>
                 <div class="relative mt-auto p-4">
@@ -50,8 +50,8 @@ include "header.php";
                 </div>
             </a>
 
-            <a href="#" onclick="openModal('../assets/web/archeives/05.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
-                <img src="../assets/web/archeives/05.jpg" alt="Hindi Speaking"
+            <a href="#" onclick="openModal('assets/web/archeives/05.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
+                <img src="assets/web/archeives/05.jpg" alt="Hindi Speaking"
                     class="h-60 w-full object-cover object-center transition duration-300 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 group-hover:opacity-50"></div>
                 <div class="relative mt-auto p-4">
@@ -59,8 +59,8 @@ include "header.php";
                 </div>
             </a>
 
-            <a href="#" onclick="openModal('../assets/web/archeives/06.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
-                <img src="../assets/web/archeives/06.jpg" alt="Hindi Speaking"
+            <a href="#" onclick="openModal('assets/web/archeives/06.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
+                <img src="assets/web/archeives/06.jpg" alt="Hindi Speaking"
                     class="h-60 w-full object-cover object-center transition duration-300 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 group-hover:opacity-50"></div>
                 <div class="relative mt-auto p-4">
@@ -68,8 +68,8 @@ include "header.php";
                 </div>
             </a>
 
-            <a href="#" onclick="openModal('../assets/web/archeives/07.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
-                <img src="../assets/web/archeives/07.jpg" alt="Hindi Speaking"
+            <a href="#" onclick="openModal('assets/web/archeives/07.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
+                <img src="assets/web/archeives/07.jpg" alt="Hindi Speaking"
                     class="h-60 w-full object-cover object-center transition duration-300 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 group-hover:opacity-50"></div>
                 <div class="relative mt-auto p-4">
@@ -77,8 +77,8 @@ include "header.php";
                 </div>
             </a>
 
-            <a href="#" onclick="openModal('../assets/web/archeives/08.jpeg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
-                <img src="../assets/web/archeives/08.jpeg" alt="Hindi Speaking"
+            <a href="#" onclick="openModal('assets/web/archeives/08.jpeg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
+                <img src="assets/web/archeives/08.jpeg" alt="Hindi Speaking"
                     class="h-60 w-full object-cover object-center transition duration-300 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 group-hover:opacity-50"></div>
                 <div class="relative mt-auto p-4">
@@ -86,8 +86,8 @@ include "header.php";
                 </div>
             </a>
 
-            <a href="#" onclick="openModal('../assets/web/archeives/09.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
-                <img src="../assets/web/archeives/09.jpg" alt="Hindi Speaking"
+            <a href="#" onclick="openModal('assets/web/archeives/09.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
+                <img src="assets/web/archeives/09.jpg" alt="Hindi Speaking"
                     class="h-60 w-full object-cover object-center transition duration-300 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 group-hover:opacity-50"></div>
                 <div class="relative mt-auto p-4">
@@ -95,8 +95,8 @@ include "header.php";
                 </div>
             </a>
 
-            <a href="#" onclick="openModal('../assets/web/archeives/10.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
-                <img src="../assets/web/archeives/10.jpg" alt="Hindi Speaking"
+            <a href="#" onclick="openModal('assets/web/archeives/10.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
+                <img src="assets/web/archeives/10.jpg" alt="Hindi Speaking"
                     class="h-60 w-full object-cover object-center transition duration-300 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 group-hover:opacity-50"></div>
                 <div class="relative mt-auto p-4">
@@ -104,8 +104,8 @@ include "header.php";
                 </div>
             </a>
 
-            <a href="#" onclick="openModal('../assets/web/archeives/11.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
-                <img src="../assets/web/archeives/11.jpg" alt="Hindi Speaking"
+            <a href="#" onclick="openModal('assets/web/archeives/11.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
+                <img src="assets/web/archeives/11.jpg" alt="Hindi Speaking"
                     class="h-60 w-full object-cover object-center transition duration-300 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 group-hover:opacity-50"></div>
                 <div class="relative mt-auto p-4">
@@ -113,8 +113,8 @@ include "header.php";
                 </div>
             </a>
 
-            <a href="#" onclick="openModal('../assets/web/archeives/12.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
-                <img src="../assets/web/archeives/12.jpg" alt="Hindi Speaking"
+            <a href="#" onclick="openModal('assets/web/archeives/12.jpg')" class="group relative flex flex-col overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-xl">
+                <img src="assets/web/archeives/12.jpg" alt="Hindi Speaking"
                     class="h-60 w-full object-cover object-center transition duration-300 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 group-hover:opacity-50"></div>
                 <div class="relative mt-auto p-4">
@@ -161,5 +161,5 @@ include "header.php";
 </script>
 
 <?php
-include "footer.php";
+include "includes/footer.php";
 ?>

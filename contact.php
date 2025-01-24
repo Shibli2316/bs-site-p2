@@ -4,7 +4,7 @@ include "includes/header.php";
 
 <section class="flex flex-col lg:flex-row py-10 px-8 bg-white shadow-lg">
     <!-- Contact Image (on top on smaller screens) -->
-    <div class="w-full lg:w-1/2 bg-cover bg-center rounded-lg mb-6 lg:mb-0 h-64 lg:h-auto" style="background-image: url('assets/contact.jpg');"></div>
+    <div class="w-full lg:w-1/2 bg-cover bg-center rounded-lg mb-6 lg:mb-0 h-64 lg:h-auto" style="background-image: url('assets/web/hero.png');"></div>
 
     <!-- Contact Form -->
     <div class="w-full lg:w-1/2 px-4">
@@ -22,7 +22,7 @@ include "includes/header.php";
             <label for="message" class="block text-lg font-semibold mb-2">Message</label>
             <textarea id="message" name="message" rows="5" placeholder="Message" class="w-full p-4 mb-6 border border-gray-300 rounded-md shadow-sm"></textarea>
 
-            <button type="submit" class="w-full py-3 bg-teal-500 text-white font-semibold rounded-md hover:bg-teal-600 transition duration-300">Send Message</button>
+            <button type="submit" class="w-full py-3 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600 transition duration-300">Send Message</button>
         </form>
     </div>
 </section>

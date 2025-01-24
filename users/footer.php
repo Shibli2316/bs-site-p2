@@ -2,7 +2,7 @@
   <div class="flex flex-wrap justify-around items-start max-w-5xl mx-auto py-10 px-5">
     <!-- Logo Section -->
     <div class="flex items-center gap-4 mb-8">
-      <img src="../assets/logo.png" alt="Bahujan Scholars Logo" class="w-12 h-12">
+      <img src="../assets/web/logo.png" alt="Bahujan Scholars Logo" class="w-12 h-12">
       <div>
         <h3 class="text-xl text-blue-500 font-bold">Bahujan Scholars</h3>
         <p class="text-sm text-gray-600 mt-2">Mentoring for social transformation.</p>
@@ -16,7 +16,7 @@
         <li><a href="dashboard.php" class="text-gray-600 hover:text-blue-500 text-sm">Home</a></li>
         <li><a href="antiCast.php" class="text-gray-600 hover:text-blue-500 text-sm">Anti Cast Compaign</a></li>
         <li><a href="event.php" class="text-gray-600 hover:text-blue-500 text-sm">Events</a></li>
-        <li><a href="mentor.php" class="text-gray-600 hover:text-blue-500 text-sm">Mentoring</a></li>
+        <li><a href="program.php" class="text-gray-600 hover:text-blue-500 text-sm">Programs</a></li>
       </ul>
     </div>
 
@@ -24,16 +24,11 @@
     <div class="mb-8 text-center sm:text-left">
       <h4 class="text-lg text-blue-500 font-semibold mb-4">Follow Us</h4>
       <ul class="flex justify-center sm:justify-start gap-4 mb-4">
-        <li>
-          <a href="https://docs.google.com/document/d/14VSovzMNp2oRd5kiVrv_1U0ig5dgKVRq/edit" target="_blank"
-            class="text-gray-600 text-xl hover:text-blue-500 transition">
-            <i class="fa fa-file"></i>
-          </a>
-        </li>
+        
         <li>
           <a href="https://www.youtube.com/@BahujanScholars-up6ek" target="_blank"
             class="text-gray-600 text-xl hover:text-blue-500 transition">
-            <i class="fab fa-youtube"></i>
+            <i class="fab fa-youtube text-red-600 hover:text-red-800"></i>
           </a>
         </li>
       </ul>
@@ -41,6 +36,7 @@
       <a href="mailto:bahujanscholars.org@gmail.com" class="text-sm text-gray-700 hover:text-blue-500">
         bahujanscholars.org@gmail.com
       </a>
+      <a href="feedback.php"><p class="text-lg text-blue-500 font-semibold mb-4 mt-4">Give your feedback</p></a>
     </div>
   </div>
 

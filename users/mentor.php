@@ -24,7 +24,7 @@ include "header.php";
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <!-- Card 1 -->
     <div class="bg-white rounded-lg shadow-lg overflow-hidden flex items-center">
-      <img class="w-1/3 h-32 object-cover m-2 rounded-lg" src="../assets/ambedkar.jpg" alt="Card Image">
+      <img class="w-1/3 h-32 object-cover m-2 rounded-lg" src="../assets/web/ambedkar.jpg" alt="Card Image">
       <div class="p-4">
         <h2 class="text-lg font-bold text-gray-800">Ajeet Shekhar</h2>
         <p class="text-sm text-gray-800">Ajeet is a compassionate and dedicated individual who is always ready to lend a helping hand in his community. His commitment to social work and the well-being of others is truly inspiring. Ajeet’s efforts have positively impacted many lives, and his selfless service continues to make a significant difference in the world.</p>
