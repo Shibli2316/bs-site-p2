@@ -98,7 +98,7 @@ $rowFindName=mysqli_fetch_assoc($resultFindName)
                 <li><a href="program.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Program</a></li>
                 <li><a href="event.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Events</a></li>
                 <li><a href="archeives.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Archeives</a></li>
-                <li><a href="testimonial.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Testimonials</a>
+                
                 </li>
               </ul>
             </li>
