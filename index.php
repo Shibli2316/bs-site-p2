@@ -100,7 +100,7 @@ include "includes/header.php";
 
 
       <div class="mt-4 md:mt-8 text-center">
-        <a href="auth/authenticate.php"
+        <a href="auth/login.php"
           class="inline-block rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400">
           Join
         </a>

@@ -1,6 +1,6 @@
 <?php
-include "includes/header.php";
-include "database/dbconn.php";
+include "header.php";
+
 $showPopup = false;
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -54,15 +54,12 @@ if ($showPopup) {
 ?>
 
 
-
 <section class="flex flex-col lg:flex-row py-10 px-8 bg-white shadow-lg">
-    <!-- Feedback Image (on top on smaller screens) -->
-    <div class="w-full lg:w-1/2 bg-cover bg-center rounded-lg mb-6 lg:mb-0 h-64 lg:h-auto" style="background-image: url('assets/web/project.webp');"></div>
+    <div class="w-full lg:w-1/2 bg-cover bg-center rounded-lg mb-6 lg:mb-0 h-64 lg:h-auto" style="background-image: url('../assets/web/project.webp');"></div>
 
-    <!-- Feedback Form -->
     <div class="w-full lg:w-1/2 px-4">
         <h2 class="text-2xl font-bold mb-6">Feedback Form</h2>
-        <form method="post">
+        <form method="post" action="feedback.php">
             <label for="name" class="block text-lg font-semibold mb-2">Full Name</label>
             <input type="text" id="name" name="name" placeholder="Enter your name" class="w-full p-4 mb-6 border border-gray-300 rounded-md shadow-sm">
 
@@ -90,5 +87,5 @@ if ($showPopup) {
 </section>
 
 <?php
-include "includes/footer.php";
+include "footer.php";
 ?>

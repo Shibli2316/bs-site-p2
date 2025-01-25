@@ -1,3 +1,19 @@
+<?php
+// error_reporting(0);
+include "../database/dbconn.php";
+session_start();
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
+  header("location: ../auth/login.php");
+  exit;
+}
+$username = $_SESSION['email'];
+
+$sqlFindName = "SELECT * FROM `profile` WHERE email = '$username'";
+$resultFindName = mysqli_query($conn, $sqlFindName);
+$rowFindName=mysqli_fetch_assoc($resultFindName)
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 

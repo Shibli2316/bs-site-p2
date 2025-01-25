@@ -6,7 +6,7 @@ include "header.php";
 <div class="flex items-center justify-center h-screen">
     <div class="relative h-screen w-full sm:w-4/5 overflow-hidden">
         <!-- Background Image -->
-        <img src="assets/web/antiCaste.jpg" alt="Profile Background"
+        <img src="../assets/web/antiCaste.jpg" alt="Profile Background"
             class="absolute top-0 left-1/2 transform -translate-x-1/2 h-full object-cover rounded-none sm:rounded-lg m-0 sm:m-4 opacity-50">
 
         <!-- Bottom Stats Section -->
@@ -44,7 +44,7 @@ include "header.php";
             </p>
 
             <p class="text-lg text-center mt-6">
-                <strong><a href="assets/web/documents/Introduction Note.docx" download>Download</a> the full file to know more about this
+                <strong><a href="../assets/web/documents/Introduction Note.docx" download>Download</a> the full file to know more about this
                     important issue.</strong>
             </p>
         </div>
@@ -60,7 +60,7 @@ include "header.php";
                 <p class="text-gray-500">A small powerpoint presentation about it</p>
             </div>
 
-            <a href="assets/web/documents/Anti-caste campaign@Umass.pptx" download>
+            <a href="../assets/web/documents/Anti-caste campaign@Umass.pptx" download>
                 <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
                     Download File
                 </button>
@@ -72,7 +72,7 @@ include "header.php";
                 <p class="text-gray-500">Support letter for your reference</p>
             </div>
 
-            <a href="assets/web/documents/Support Letter for Anti-caste Campaign.docx" download>
+            <a href="../assets/web/documents/Support Letter for Anti-caste Campaign.docx" download>
                 <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
                     Download File
                 </button>
@@ -84,7 +84,7 @@ include "header.php";
                 <p class="text-gray-500">Cover letter for your reference</p>
             </div>
 
-            <a href="assets/web/documents/Cover Letter for Anti-caste Support letter.docx" download>
+            <a href="../assets/web/documents/Cover Letter for Anti-caste Support letter.docx" download>
                 <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
                     Download File
                 </button>
@@ -96,7 +96,7 @@ include "header.php";
                 <p class="text-gray-500">Support letter for your reference</p>
             </div>
 
-            <a href="assets/web/documents/Anti-caste Support letter.docx" download>
+            <a href="../assets/web/documents/Anti-caste Support letter.docx" download>
                 <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
                     Download File
                 </button>
@@ -108,7 +108,7 @@ include "header.php";
                 <p class="text-gray-500">Letter to the MSP caste in non-discrimination policy</p>
             </div>
 
-            <a href="assets/web/documents/Letter to the MSP_caste in non-discrimination policy.docx" download>
+            <a href="../assets/web/documents/Letter to the MSP_caste in non-discrimination policy.docx" download>
                 <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
                     Download File
                 </button>
@@ -120,7 +120,7 @@ include "header.php";
                 <p class="text-gray-500">The complete Introduction file</p>
             </div>
 
-            <a href="assets/web/documents/Introduction Note.docx" download>
+            <a href="../assets/web/documents/Introduction Note.docx" download>
                 <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
                     Download File
                 </button>

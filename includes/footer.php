@@ -17,7 +17,7 @@
         <li><a href="about.php" class="text-gray-600 hover:text-blue-500 text-sm">About</a></li>
         <li><a href="event.php" class="text-gray-600 hover:text-blue-500 text-sm">Events</a></li>
         <li><a href="program.php" class="text-gray-600 hover:text-blue-500 text-sm">Programs</a></li>
-        <li><a href="auth/authenticate.php" class="text-gray-600 hover:text-blue-500 text-sm">Mentoring</a></li>
+        <li><a href="auth/login.php" class="text-gray-600 hover:text-blue-500 text-sm">Mentoring</a></li>
       </ul>
     </div>
 

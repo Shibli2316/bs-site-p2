@@ -111,7 +111,7 @@
 
 
                         <!-- Dropdown Menu 3 -->
-                        <li><a href="auth/authenticate.php"
+                        <li><a href="auth/login.php"
                                 class="inline-block rounded bg-blue-600 px-5 py-2 text-sm font-medium text-white transition hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400">Sign
                                 Up</a>
                         </li>
