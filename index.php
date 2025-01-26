@@ -118,7 +118,7 @@ include "includes/header.php";
     <!-- Vision Card -->
     <div class="glass-card w-72 p-6 rounded-2xl shadow-xl relative pt-14 bg-pink-50 border border-pink-200 hover:shadow-2xl transition-shadow duration-300">
       <div class="icon-container mx-auto">
-        <img src="assets/web/vission.jpg" alt="Icon representing Vision" class="w-16 h-auto">
+        <img src="assets/web/vission.jpg" alt="Icon representing Vision" class="w-16 h-auto rounded-full">
       </div>
       <h3 class="text-xl font-bold mt-8 mb-3 text-pink-900">Vision</h3>
       <p class="text-base leading-7 text-gray-700">Bahujan Scholars mentors and empowers disadvantaged youth, inspiring
@@ -128,7 +128,7 @@ include "includes/header.php";
     <!-- Mission Card -->
     <div class="glass-card w-72 p-6 rounded-2xl shadow-xl relative pt-14 bg-teal-50 border border-teal-200 hover:shadow-2xl transition-shadow duration-300">
       <div class="icon-container mx-auto">
-        <img src="assets/web/mission.jpg" alt="Icon representing Mission" class="w-16 h-auto">
+        <img src="assets/web/mission.jpg" alt="Icon representing Mission" class="w-16 h-auto rounded-full">
       </div>
       <h3 class="text-xl font-bold mt-8 mb-3 text-teal-900">Mission</h3>
       <p class="text-base leading-7 text-gray-700">To mentor young Scholars from disadvantaged communities for graduate
@@ -138,7 +138,7 @@ include "includes/header.php";
     <!-- Values Card -->
     <div class="glass-card w-72 p-6 rounded-2xl shadow-xl relative pt-14 bg-orange-50 border border-orange-200 hover:shadow-2xl transition-shadow duration-300">
       <div class="icon-container mx-auto">
-        <img src="assets/web/value.jpg" alt="Icon representing Values" class="w-16 h-auto">
+        <img src="assets/web/value.jpg" alt="Icon representing Values" class="w-16 h-auto rounded-full">
       </div>
       <h3 class="text-xl font-bold mt-8 mb-3 text-orange-900">Values</h3>
       <p class="text-base leading-7 text-gray-700">Bahujan Scholars is committed to the <i>"pay back to the society"</i>
