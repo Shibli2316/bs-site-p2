@@ -54,7 +54,7 @@ if ($showPopup) {
     <div id='popup' class='fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center z-50'>
         <div class='bg-white p-6 rounded-lg shadow-lg text-center'>
             <h3 class='text-xl font-semibold mb-4 text-green-600'>Thank You for Applying!</h3>
-            <p class='mb-4 text-gray-700'>We appreciate your interest in becoming a mentor. We will get back to you soon.</p>
+            <p class='mb-4 text-gray-700'>We appreciate your interest in becoming a mentee. We will get back to you soon.</p>
             <button onclick='closePopup()' class='px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition'>
                 Close
             </button>
@@ -125,7 +125,7 @@ if ($showPopup) {
                 <div class="flex justify-center space-x-8 mt-2 mb-2">
                     <label for="degreeYes" class="inline-flex items-center">
                         <input type="radio" name="degree_pursuing" id="degreeYes" value="yes"
-                            class="text-[#6A64F1] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] transition duration-300" />
+                            class="text-[#6A64F1] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] transition duration-300" required/>
                         Yes
                     </label>
                     <label for="degreeNo" class="inline-flex items-center">
@@ -166,7 +166,7 @@ if ($showPopup) {
                     looking for (be specific and succinct and not more than five areas/topics)?
                 </label>
                 <input type="text" name="support" id="name" placeholder="Your Answer"
-                    class="w-full rounded-md border border-[#e0e0e0] py-3 px-4 sm:px-6 text-base text-[#6B7280] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] transition duration-300" />
+                    class="w-full rounded-md border border-[#e0e0e0] py-3 px-4 sm:px-6 text-base text-[#6B7280] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] transition duration-300" required/>
             </div>
 
 
@@ -176,7 +176,7 @@ if ($showPopup) {
                 <div class="flex justify-center space-x-8 mt-2 mb-2">
                     <label for="degreeYes" class="inline-flex items-center">
                         <input type="radio" name="mentor_assist" id="degreeYes" value="yes"
-                            class="text-[#6A64F1] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] transition duration-300" />
+                            class="text-[#6A64F1] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] transition duration-300" required/>
                         Yes
                     </label>
                     <label for="degreeNo" class="inline-flex items-center">
@@ -203,19 +203,19 @@ if ($showPopup) {
                     work interest you?
                 </label>
                 <input type="text" name="career_goal" id="email" placeholder="Your Answer"
-                    class="w-full rounded-md border border-[#e0e0e0] py-3 px-4 sm:px-6 text-base text-[#6B7280] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] transition duration-300" />
+                    class="w-full rounded-md border border-[#e0e0e0] py-3 px-4 sm:px-6 text-base text-[#6B7280] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] transition duration-300" required />
             </div>
             <div class="mb-6">
                 <label for="email" class="text-lg font-medium text-[#07074D]">Are you involved in any social activity or
                     civic engagement? </label>
                 <input type="text" name="social_activity" id="email" placeholder="Your Answer"
-                    class="w-full rounded-md border border-[#e0e0e0] py-3 px-4 sm:px-6 text-base text-[#6B7280] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] transition duration-300" />
+                    class="w-full rounded-md border border-[#e0e0e0] py-3 px-4 sm:px-6 text-base text-[#6B7280] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] transition duration-300" required/>
             </div>
 
 
             <div class="flex items-center mt-4">
                 <input type="checkbox" id="terms" name="terms"
-                    class="w-5 h-5 text-[#6A64F1] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] rounded transition duration-300">
+                    class="w-5 h-5 text-[#6A64F1] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] rounded transition duration-300" required>
                 <label for="terms" class="ml-2 text-[#07074D] text-sm font-medium">
                     I agree to the <a href="#" class="text-[#6A64F1] underline hover:text-[#5a53c6]">terms and
                         conditions</a>.

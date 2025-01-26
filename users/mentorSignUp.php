@@ -148,7 +148,7 @@ if ($showPopup) {
                 <label class="text-lg font-medium text-[#07074D]">Number of Mentees</label>
                 <div class="flex justify-center space-x-8 mt-2 mb-2">
                     <label for="mentees_count" class="inline-flex items-center">
-                        <input type="radio" name="mentees_count" value="1-3" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" />
+                        <input type="radio" name="mentees_count" value="1-3" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" required/>
                         <span class="ml-2">1-3</span>
                     </label>
                     <label for="mentees_count" class="inline-flex items-center">
@@ -164,19 +164,26 @@ if ($showPopup) {
 
             <div class="mb-6">
                 <label for="recommend_mentor" class="text-lg font-medium text-[#07074D]">Have you been recommended as a mentor?</label>
-                <textarea name="recommend_mentor" id="recommend_mentor" rows="4" placeholder="Yes/No" class="w-full rounded-md border py-3 px-4 text-base"></textarea>
+                <textarea name="recommend_mentor" id="recommend_mentor" rows="4" placeholder="Yes/No" class="w-full rounded-md border py-3 px-4 text-base" required></textarea>
             </div>
 
             <div class="mb-6">
                 <label for="matching_preferences" class="text-lg font-medium text-[#07074D]">Matching Preferences</label>
-                <textarea name="matching_preferences" id="matching_preferences" rows="4" placeholder="Describe your preferences" class="w-full rounded-md border py-3 px-4 text-base"></textarea>
+                <textarea name="matching_preferences" id="matching_preferences" rows="4" placeholder="Describe your preferences" class="w-full rounded-md border py-3 px-4 text-base" required></textarea>
             </div>
 
             <div class="mb-6">
                 <label for="suggestions" class="text-lg font-medium text-[#07074D]">Suggestions</label>
                 <textarea name="suggestions" id="suggestions" rows="4" placeholder="Any additional suggestions" class="w-full rounded-md border py-3 px-4 text-base"></textarea>
             </div>
-
+            <div class="flex items-center mt-4">
+                <input type="checkbox" id="terms" name="terms"
+                    class="w-5 h-5 text-[#6A64F1] focus:outline-none focus:ring-2 focus:ring-[#6A64F1] rounded transition duration-300" required>
+                <label for="terms" class="ml-2 text-[#07074D] text-sm font-medium">
+                    I agree to the <a href="#" class="text-[#6A64F1] underline hover:text-[#5a53c6]">terms and
+                        conditions</a>.
+                </label>
+            </div>
             <button type="submit" class="w-full py-3 px-6 rounded-lg bg-blue-600 text-white text-lg font-semibold hover:bg-blue-700 transition">
                 Submit
             </button>
