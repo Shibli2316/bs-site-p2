@@ -1,4 +1,4 @@
-<?php error_reporting(0);?>
+<?php error_reporting(0); ?>
 
 
 <!DOCTYPE html>
@@ -52,7 +52,6 @@
                         <span class="text-sm text-gray-500">Mentoring for Social Transformation</span>
                     </div>
                 </div>
-
             </a>
 
             <!-- Hamburger Button and Navigation Menu (aligned to top-right) -->
@@ -70,47 +69,39 @@
                 <nav id="menu"
                     class="hidden lg:flex lg:space-x-6 absolute lg:static top-16 left-0 w-full bg-white shadow-lg lg:shadow-none lg:bg-transparent lg:top-auto lg:left-auto z-40">
                     <ul class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
-                        <li><a href="index.php" class="hover:text-blue-500 block px-4 py-2">Home</a></li>
-                        <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2">Anti Cast Campaign</a>
+                        <li><a href="index.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Home</a></li>
+                        <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Anti Cast
+                                Campaign</a>
                         </li>
 
                         <li class="relative">
                             <button id="dropdownButton1"
-                                class="hover:text-blue-500 block px-4 py-2 focus:outline-none bg-transparent z-50">
+                                class="hover:text-blue-500 block px-4 py-2 focus:outline-none bg-transparent z-50 font-semibold">
                                 Initiatives
                             </button>
 
                             <ul id="dropdownMenu1"
                                 class="hidden absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg">
                                 <li><a href="program.php"
-                                        class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Program</a></li>
+                                        class="block px-4 py-2 text-gray-700 hover:bg-gray-100 ">Program</a></li>
                                 <li><a href="event.php"
                                         class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Events</a></li>
                                 <li><a href="archeives.php"
                                         class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Archeives</a>
                                 </li>
-                                <li><a href="testimonial.php"
-                                        class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Testimonials</a>
-                                </li>
                             </ul>
                         </li>
-                        <li><a href="about.php" class="hover:text-blue-500 block px-4 py-2">About</a></li>
-                        <li><a href="faq.php" class="hover:text-blue-500 block px-4 py-2">FAQ</a></li>
-                        <li><a href="contact.php" class="hover:text-blue-500 block px-4 py-2">Contact</a></li>
+                        <li><a href="about.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">About</a></li>
+                        <li><a href="faq.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">FAQ</a></li>
+                        <li><a href="contact.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Contact</a>
+                        </li>
 
                         <li>
                             <a href="https://www.youtube.com/@BahujanScholars-up6ek"
-                                class="hover:text-red-600 block px-4 py-2">
-                                <i class="fab fa-youtube text-red-600 hover:text-red-800"></i>
+                                class="hover:text-red-600 block px-6 py-3 text-lg">
+                                <i class="fab fa-youtube text-red-600 hover:text-red-800 text-2xl"></i>
                             </a>
                         </li>
-
-                        <!-- Dropdown Menu 1 -->
-
-
-                        <!-- Dropdown Menu 2 -->
-
-
 
 
                         <!-- Dropdown Menu 3 -->
@@ -119,13 +110,8 @@
                                 Up</a>
                         </li>
 
-
-
                     </ul>
                 </nav>
-
-
-
 
             </div>
         </div>

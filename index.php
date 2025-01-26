@@ -51,7 +51,7 @@ include "includes/header.php";
   }
 
   .glass-card p {
-    color: #2d3748;
+    color:rgb(0, 0, 0);
     /* Slightly lighter gray for text */
   }
 
@@ -73,19 +73,19 @@ include "includes/header.php";
 
 <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
   <img alt="" src="assets/web/hero.jpg" class="w-full h-auto object-cover sm:h-full sm:order-none order-last" />
-  <div class="p-8 md:p-12 lg:px-16 lg:py-24">
-    <div class="mx-auto max-w-xl text-center sm:text-left">
+  <div class="p-6 md:p-8 lg:px-10 lg:py-12">
+    <div class="mx-auto max-w-lg text-center sm:text-left">
 
-      <h2 class="text-2xl font-bold text-gray-900 md:text-3xl text-center">
+      <h1 class="text-xl font-bold text-gray-900 md:text-4xl">
         Bahujan Scholars
-      </h2>
-      <p class=" text-gray-500 md:mt-4 md:block text-center">
+      </h1>
+      <p class="text-gray-500 mt-2 md:mt-3">
         Mentoring for social transformation
       </p>
 
-      <hr class="border-2C5F2D">
+      <hr class="border-2 border-gray-300 my-3">
 
-      <p class="text-gray-700 text-lg leading-8 md:mt-4 md:block text-justify">
+      <p class="text-gray-700 text-lg leading-6 mt-3 text-justify">
         Historically, disadvantaged communities in India have faced significant barriers to accessing education.
         This exclusion continues to be a pressing issue, particularly in higher education. Disadvantaged communities
         are underrepresented in elite institutions, and systemic barriers hinder their ability to earn degrees.
@@ -94,14 +94,12 @@ include "includes/header.php";
         for youth from disadvantaged backgrounds, providing hope, role models, guidance, and support that formal
         education often lacks. The Bahujan Scholars group, started on WhatsApp, aims to connect Bahujan Scholars
         from outside India. This rapidly growing group, with more than 100 members, includes graduate students, faculty,
-        and
-        Scholars. Its purpose is to foster mentoring, support Bahujan Scholars, and organize online events.
+        and Scholars. Its purpose is to foster mentoring, support Bahujan Scholars, and organize online events.
       </p>
 
-
-      <div class="mt-4 md:mt-8 text-center">
+      <div class="mt-4 text-center">
         <a href="auth/login.php"
-          class="inline-block rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400">
+          class="inline-block rounded bg-blue-600 px-8 py-2 text-sm font-medium text-white transition hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400">
           Join
         </a>
       </div>
@@ -109,44 +107,47 @@ include "includes/header.php";
   </div>
 </section>
 
+
 <!-- END OF SECTION 1 -->
 
 
 <!-- START OF SECTION 2 -->
 
-<section class="text-center py-12 bg-gray-100 mt-8">
+<section class="text-center py-12 bg-gradient-to-r from-blue-50 via-blue-100 to-blue-50">
   <div class="flex flex-wrap gap-8 justify-center">
     <!-- Vision Card -->
-    <div class="glass-card w-72 p-6 rounded-lg shadow-lg relative pt-14">
-      <div class="icon-container">
-        <img src="assets/web/vission.jpg" alt="Icon representing Vision" class="w-12 h-auto">
+    <div class="glass-card w-72 p-6 rounded-2xl shadow-xl relative pt-14 bg-pink-50 border border-pink-200 hover:shadow-2xl transition-shadow duration-300">
+      <div class="icon-container mx-auto">
+        <img src="assets/web/vission.jpg" alt="Icon representing Vision" class="w-16 h-auto">
       </div>
-      <h3 class="text-lg font-bold mt-10 mb-3 text-gray-900">Vision</h3>
-      <p class="text-base leading-7 text-gray-800">Bahujan Scholars mentors and empowers disadvantaged youth, inspiring
+      <h3 class="text-xl font-bold mt-8 mb-3 text-pink-900">Vision</h3>
+      <p class="text-base leading-7 text-gray-700">Bahujan Scholars mentors and empowers disadvantaged youth, inspiring
         them to become committed professionals and transform their lives.</p>
     </div>
 
     <!-- Mission Card -->
-    <div class="glass-card w-72 p-6 rounded-lg shadow-lg relative pt-14">
-      <div class="icon-container">
-        <img src="assets/web/mission.jpg" alt="Icon representing Mission" class="w-12 h-auto">
+    <div class="glass-card w-72 p-6 rounded-2xl shadow-xl relative pt-14 bg-teal-50 border border-teal-200 hover:shadow-2xl transition-shadow duration-300">
+      <div class="icon-container mx-auto">
+        <img src="assets/web/mission.jpg" alt="Icon representing Mission" class="w-16 h-auto">
       </div>
-      <h3 class="text-lg font-bold mt-10 mb-3 text-gray-900">Mission</h3>
-      <p class="text-base leading-7 text-gray-800">To mentor young Scholars from disadvantaged communities for graduate
+      <h3 class="text-xl font-bold mt-8 mb-3 text-teal-900">Mission</h3>
+      <p class="text-base leading-7 text-gray-700">To mentor young Scholars from disadvantaged communities for graduate
         programs in India and abroad, and to institutionalize mentoring practices in India.</p>
     </div>
 
     <!-- Values Card -->
-    <div class="glass-card w-72 p-6 rounded-lg shadow-lg relative pt-14">
-      <div class="icon-container">
-        <img src="assets/web/value.jpg" alt="Icon representing Values" class="w-12 h-auto">
+    <div class="glass-card w-72 p-6 rounded-2xl shadow-xl relative pt-14 bg-orange-50 border border-orange-200 hover:shadow-2xl transition-shadow duration-300">
+      <div class="icon-container mx-auto">
+        <img src="assets/web/value.jpg" alt="Icon representing Values" class="w-16 h-auto">
       </div>
-      <h3 class="text-lg font-bold mt-10 mb-3 text-gray-900">Values</h3>
-      <p class="text-base leading-7 text-gray-800">Bahujan Scholars is committed to the <i>"pay back to the society"</i>
+      <h3 class="text-xl font-bold mt-8 mb-3 text-orange-900">Values</h3>
+      <p class="text-base leading-7 text-gray-700">Bahujan Scholars is committed to the <i>"pay back to the society"</i>
         philosophy and for intellectual and educational advancement of disadvantaged communities.</p>
     </div>
   </div>
 </section>
+
+
 
 
 

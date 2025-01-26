@@ -102,7 +102,7 @@
                 id="MarketingAccept"
                 name="marketing_accept"
                 class="size-5 rounded-md border-gray-200 bg-white shadow-sm"
-                required
+                
               />
 
               <span class="text-sm text-gray-700">

@@ -6,7 +6,7 @@ include "header.php";
 <div class="flex items-center justify-center h-screen">
     <div class="relative h-screen w-full sm:w-4/5 overflow-hidden">
         <!-- Background Image -->
-        <img src="../assets/web/antiCaste.jpg" alt="Profile Background"
+        <img src="../assets/web/Anti-caste campaign-Photo.jpeg" alt="Profile Background"
             class="absolute top-0 left-1/2 transform -translate-x-1/2 h-full object-cover rounded-none sm:rounded-lg m-0 sm:m-4 opacity-50">
 
         <!-- Bottom Stats Section -->
