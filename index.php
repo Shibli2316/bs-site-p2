@@ -89,7 +89,10 @@ include "includes/header.php";
         Historically, disadvantaged communities in India have faced significant barriers to accessing education.
         This exclusion continues to be a pressing issue, particularly in higher education. Disadvantaged communities
         are underrepresented in elite institutions, and systemic barriers hinder their ability to earn degrees.
-        Despite decades of this status quo, systemic change seems elusive. Research demonstrates the positive impact
+        Despite decades of this status quo, systemic change seems elusive. 
+      </p>
+        <p class="text-gray-700 text-lg leading-6 mt-3 text-justify">
+        Research demonstrates the positive impact
         of mentoring on mentees' outcomes and their engagement in their communities. Mentoring is especially crucial
         for youth from disadvantaged backgrounds, providing hope, role models, guidance, and support that formal
         education often lacks. The Bahujan Scholars group, started on WhatsApp, aims to connect Bahujan Scholars
@@ -114,32 +117,32 @@ include "includes/header.php";
 <!-- START OF SECTION 2 -->
 
 <section class="text-center py-12 bg-gradient-to-r from-blue-50 via-blue-100 to-blue-50">
-  <div class="flex flex-wrap gap-8 justify-center">
+  <div class="flex flex-wrap gap-14 justify-center">
     <!-- Vision Card -->
-    <div class="glass-card w-72 p-6 rounded-2xl shadow-xl relative pt-14 bg-pink-50 border border-pink-200 hover:shadow-2xl transition-shadow duration-300">
-      <div class="icon-container mx-auto">
+    <div class="glass-card w-72 p-6 rounded-2xl shadow-xl relative pt-14 bg-pink-50 border border-pink-200 hover:shadow-2xl transition-shadow duration-300" style="padding-top: 20px;">
+      <!-- <div class="icon-container mx-auto">
         <img src="assets/web/vission.jpg" alt="Icon representing Vision" class="w-16 h-auto rounded-full">
-      </div>
+      </div> -->
       <h3 class="text-xl font-bold mt-8 mb-3 text-pink-900">Vision</h3>
       <p class="text-base leading-7 text-gray-700">Bahujan Scholars mentors and empowers disadvantaged youth, inspiring
         them to become committed professionals and transform their lives.</p>
     </div>
 
     <!-- Mission Card -->
-    <div class="glass-card w-72 p-6 rounded-2xl shadow-xl relative pt-14 bg-teal-50 border border-teal-200 hover:shadow-2xl transition-shadow duration-300">
-      <div class="icon-container mx-auto">
+    <div class="glass-card w-72 p-6 rounded-2xl shadow-xl relative pt-14 bg-teal-50 border border-teal-200 hover:shadow-2xl transition-shadow duration-300" style="padding-top: 20px;">
+      <!-- <div class="icon-container mx-auto">
         <img src="assets/web/mission.jpg" alt="Icon representing Mission" class="w-16 h-auto rounded-full">
-      </div>
+      </div> -->
       <h3 class="text-xl font-bold mt-8 mb-3 text-teal-900">Mission</h3>
       <p class="text-base leading-7 text-gray-700">To mentor young Scholars from disadvantaged communities for graduate
         programs in India and abroad, and to institutionalize mentoring practices in India.</p>
     </div>
 
     <!-- Values Card -->
-    <div class="glass-card w-72 p-6 rounded-2xl shadow-xl relative pt-14 bg-orange-50 border border-orange-200 hover:shadow-2xl transition-shadow duration-300">
-      <div class="icon-container mx-auto">
+    <div class="glass-card w-72 p-6 rounded-2xl shadow-xl relative pt-14 bg-orange-50 border border-orange-200 hover:shadow-2xl transition-shadow duration-300" style="padding-top: 20px;">
+      <!-- <div class="icon-container mx-auto">
         <img src="assets/web/value.jpg" alt="Icon representing Values" class="w-16 h-auto rounded-full">
-      </div>
+      </div> -->
       <h3 class="text-xl font-bold mt-8 mb-3 text-orange-900">Values</h3>
       <p class="text-base leading-7 text-gray-700">Bahujan Scholars is committed to the <i>"pay back to the society"</i>
         philosophy and for intellectual and educational advancement of disadvantaged communities.</p>
@@ -197,7 +200,7 @@ include "includes/header.php";
     <!-- Mentoring Text Section -->
     <div class="flex-1 flex flex-col justify-center px-5 text-left text-gray-900">
       <h2 class="text-3xl font-bold text-gray-900 mb-6">Why Bhajan Scholars is unique?</h2>
-      <p class="text-lg text-gray-900 mb-6 leading-relaxed">
+      <p class="text-lg text-gray-900 mb-6 leading-relaxed text-justify">
         Bahujan Scholars has a distinct advantage: all members of its network either live outside India or have
         international academic experience. This facilitates strong connections with global academia and an opportunity
         to build ally and Bahujan scholars' networks. Our one-on-one mentoring project is international collaboration,

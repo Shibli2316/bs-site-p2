@@ -25,7 +25,7 @@ include "includes/header.php";
             <img src="assets/programs/nexgen.jpg" alt="Table Top Planters" class="w-full h-48 object-cover">
             <p
               class="cursor-pointer absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-2xl text-center text-white font-roboto font-medium group-hover:bg-opacity-60 transition">
-              NexGen</p>
+              NextGen</p>
           </div>
         </a>
         

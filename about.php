@@ -2,24 +2,23 @@
 include "includes/header.php";
 ?>
 
-<section class="sec-01 relative h-screen text-white bg-black">
-  <!-- Fullscreen Background Image -->
-  <div class="absolute inset-0">
-    <img src="assets/web/team.jpg" alt="Team" class="w-full h-full object-cover">
-    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-  </div>
+<section class="flex justify-center items-center min-h-[70vh] sm:min-h-[75vh]">
+  <div class="relative w-4/5 sm:w-3/4 max-h-[75vh] overflow-hidden rounded-lg">
+    <!-- Background Image -->
+    <img src="assets/web/team.jpg" alt="Team" class="w-full h-full object-cover rounded-lg opacity-70">
 
-  <!-- Bottom-Centered Text Content -->
-  <div class="absolute inset-x-0 bottom-0 px-4 sm:px-0 sm:bottom-8 text-center max-w-3xl mx-auto">
-    <h2 class="text-2xl sm:text-4xl font-bold mb-4 tracking-wide">Bahujan Scholars</h2>
-    <p class="text-sm sm:text-lg leading-6 sm:leading-relaxed tracking-normal sm:tracking-wide">
-      To inspire and educate youth from disadvantaged communities in India, mentoring is an indispensable process that
-      connects young persons with experienced mentors. The rapid rise of internet-based technology has made it possible
-      to connect mentees from India with mentors anywhere in the world. For example, the CMC (Computer Mediated
-      Communication) model, or E-mentoring, is widely adopted and institutionalized in academic and community settings
-      in the United States for mentoring purposes, including academic, professional, and skills-related teaching and
-      learning interactions.
-    </p>
+    <!-- Bottom-Centered Text Content -->
+    <div class="absolute bottom-4 sm:bottom-8 inset-x-0 text-center mx-auto px-4">
+      <h2 class="text-2xl sm:text-4xl font-bold tracking-wide text-black">
+        Bahujan Scholars
+      </h2>
+      <p class="text-sm sm:text-lg leading-6 sm:leading-relaxed tracking-normal sm:tracking-wide text-black mt-2">
+        To inspire and educate youth from disadvantaged communities in India, mentoring is an indispensable process that
+        connects young persons with experienced mentors. The rapid rise of internet-based technology has made it
+        possible
+        to connect mentees from India with mentors anywhere in the world.
+      </p>
+    </div>
   </div>
 </section>
 
@@ -42,7 +41,7 @@ include "includes/header.php";
     <h3 class="text-3xl font-bold mb-12 text-center tracking-wide">Process and Program</h3>
     <div class="flex flex-col lg:flex-row justify-center items-center gap-12">
       <!-- Image Section -->
-      <div class="w-full max-w-xs lg:w-96 h-52 lg:h-64 overflow-hidden rounded-lg shadow-lg">
+      <div class="w-full max-w-xs lg:w-120 h-52 lg:h-80 overflow-hidden rounded-lg shadow-lg">
         <img src="assets/web/project.webp" alt="Project" class="w-full h-full object-cover">
       </div>
       <!-- Text Section -->
@@ -54,17 +53,20 @@ include "includes/header.php";
           Scholars collects monthly feedback from mentees to evaluate the process and ensure both parties' needs are
           met.
         </p>
+        <h2 class="text-xl font-bold mb-2 mt-6">Pilot Program:</h2>
         <p class="mt-4 text-justify leading-relaxed tracking-wide text-lg">
-          In 2023, Bahujan Scholars collaborated with the National Youth Equity Forum (NYEF), a non-profit supporting
-          first-generation learners from excluded communities in North India, to launch a pilot project called "Bahujan
-          Mentoring." This project matched ten mentors from Bahujan Scholars with ten mentees from NYEF based on
-          academic and professional backgrounds. Mentors, graduate students, and faculty members from North America
-          mentored mentees in India from March to August 2024.
+          In 2023, we collaborated with a non-profit organization in India and designed a One-on-One pilot project
+          called "Bahujan Mentoring." The project matched ten mentors from Bahujan Scholars with ten mentees from India
+          based on their academic and professional backgrounds. This was an international project in which mentors were
+          graduate students and faculty members located outside India, all in North America, and mentees were in India.
+          The project started in March 2024 and completed in August 2024.
         </p>
       </div>
     </div>
   </div>
 </section>
+
+
 
 <section class="py-16 px-5 bg-gray-50 flex justify-center">
   <div class="flex flex-col-reverse lg:flex-row max-w-screen-xl w-full gap-8">
@@ -107,11 +109,13 @@ include "includes/header.php";
     </div>
 
     <!-- Mentoring Image Section -->
-    <div class="flex-1 flex items-center justify-center">
-      <img src="assets/web/logicModel.png" alt="Mentoring Image" class="max-w-full h-auto rounded-lg shadow-lg">
+    <div class="flex-1 flex flex-col items-center justify-center">
+      <h3 class="text-2xl font-bold text-gray-900 mb-4">Logic Model</h3> <!-- Logic Model Heading -->
+      <img src="assets/web/newLogic.png" alt="Mentoring Image" class="max-w-full h-auto rounded-lg shadow-lg">
     </div>
   </div>
 </section>
+
 
 
 
@@ -123,7 +127,8 @@ include "includes/header.php";
     <div class="flex flex-col lg:flex-row lg:flex-wrap justify-center items-stretch gap-6 lg:gap-8">
 
       <!-- Leader 1 -->
-      <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[48%] xl:w-[30%]">
+      <div
+        class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[48%] xl:w-[30%]">
         <img src="assets/web/Photo-Bharat.jpeg" alt="Leader 1" class="w-32 h-32 rounded-full mb-4 object-cover">
         <h3 class="text-xl font-semibold text-blue-500 mb-2">Bharat Rathod</h3>
         <p class="text-gray-600 text-lg mb-4">Director, <br>Bahujan Scholars</p>
@@ -136,15 +141,13 @@ include "includes/header.php";
           scholarship.
           Bharat worked in the non-profit sector and served as a leader in a community-based organization in Ahmedabad,
           India. Over the last decade, he has been associated with youth mentoring activities to promote higher
-          education among the disadvantaged communities in India. Bharat has been associated with educational
-          initiatives in Gujarat and involved with civil society organizations in India and the United States. A
-          dedicated anti-caste activist, he spearheaded a successful anti-caste campaign at UMass Amherst and is now
-          collaborating with the administration to integrate caste considerations into the campus climate survey.
+          education among the disadvantaged communities in India.
         </p>
       </div>
 
       <!-- Leader 2 -->
-      <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[48%] xl:w-[30%]">
+      <div
+        class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[48%] xl:w-[30%]">
         <img src="assets/web/Photo-Ajeet.jpeg" alt="Leader 2" class="w-32 h-32 rounded-full mb-4 object-cover">
         <h3 class="text-xl font-semibold text-blue-500 mb-2">Ajeet Shekhar</h3>
         <p class="text-gray-600 text-lg mb-4">Chief Executive Officer, <br>Bahujan Scholar </p>
@@ -160,7 +163,7 @@ include "includes/header.php";
           changemakers and driving social impact through grassroots initiatives.
         </p>
       </div>
-
+<!-- add 2 names here -->
     </div>
   </div>
 </section>
