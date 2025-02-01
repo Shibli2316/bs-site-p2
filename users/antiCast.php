@@ -2,23 +2,11 @@
 include "header.php";
 ?>
 
-
-<div class="flex items-center justify-center h-screen">
-    <div class="relative h-screen w-full sm:w-4/5 overflow-hidden">
-        <!-- Background Image -->
-        <img src="../assets/web/Anti-caste campaign-Photo.jpeg" alt="Profile Background"
-            class="absolute top-0 left-1/2 transform -translate-x-1/2 h-full object-cover rounded-none sm:rounded-lg m-0 sm:m-4 opacity-50">
-
-        <!-- Bottom Stats Section -->
-        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-80 py-6 px-4 sm:px-6 rounded-lg">
-            <div class="flex justify-center items-center">
-                <h3 class="text-5xl font-bold text-white text-center sm:text-left">Anti Caste Campaign</h3>
-            </div>
-        </div>
+<div class="flex items-center justify-center mt-14 w-full">
+    <div class="relative left-0 right-0 bg-black bg-opacity-80 py-6 px-4 sm:px-6 rounded-lg w-full lg:w-4/5 flex justify-center mx-auto">
+        <h3 class="text-5xl font-bold text-white text-center w-full">Anti Caste Campaign</h3>
     </div>
 </div>
-
-
 
 <!-- Additional Sections -->
 <div class="mt-12 max-w-7xl mx-auto px-6">
@@ -26,7 +14,7 @@ include "header.php";
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center mb-12">
         <div class="col-span-full">
             <div class="text-teal-500 text-4xl mb-2">✊</div>
-            <h3 class="text-lg font-bold">Anti Caste Campaign</h3>
+
             <p class="text-lg mb-4">
                 Caste-based discrimination remains prevalent in US institutions. A <strong>2018 survey by Equality
                     Labs</strong> revealed that <strong>1 in 4 Dalit Americans</strong> faced verbal or physical assault
@@ -44,12 +32,12 @@ include "header.php";
             </p>
 
             <p class="text-lg text-center mt-6">
-                <strong><a href="../assets/web/documents/Introduction Note.docx" download>Download</a> the full file to know more about this
+                <strong><a href="../assets/web/documents/Introduction Note.docx" download>Download</a> the full file to
+                    know more about this
                     important issue.</strong>
             </p>
         </div>
     </div>
-
 
     <!-- Education, Experience, and Interests -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -90,47 +78,8 @@ include "header.php";
                 </button>
             </a>
         </div>
-        <div class="bg-gray-100 p-6 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Support Letter</h3>
-            <div class="mb-4">
-                <p class="text-gray-500">Support letter for your reference</p>
-            </div>
-
-            <a href="../assets/web/documents/Anti-caste Support letter.docx" download>
-                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
-                    Download File
-                </button>
-            </a>
-        </div>
-        <div class="bg-gray-100 p-6 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">To the MSP</h3>
-            <div class="mb-4">
-                <p class="text-gray-500">Letter to the MSP caste in non-discrimination policy</p>
-            </div>
-
-            <a href="../assets/web/documents/Letter to the MSP_caste in non-discrimination policy.docx" download>
-                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
-                    Download File
-                </button>
-            </a>
-        </div>
-        <div class="bg-gray-100 p-6 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Introduction letter</h3>
-            <div class="mb-4">
-                <p class="text-gray-500">The complete Introduction file</p>
-            </div>
-
-            <a href="../assets/web/documents/Introduction Note.docx" download>
-                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
-                    Download File
-                </button>
-            </a>
-        </div>
 
     </div>
-
-
-
 </div>
 
 

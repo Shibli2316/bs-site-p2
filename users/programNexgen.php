@@ -4,17 +4,19 @@ include "header.php";
 
 
 
-<div class="flex items-center justify-center h-screen">
-    <div class="relative h-screen w-full sm:w-4/5 overflow-hidden">
+
+
+<div class="flex items-center justify-center min-h-[400px] sm:min-h-[500px] mt-4">
+    <div class="relative w-full sm:w-4/5">
         <!-- Background Image -->
         <img src="../assets/programs/nexgen.jpg" alt="Profile Background"
-            class="absolute inset-0 w-full h-full object-cover rounded-none sm:rounded-lg m-0 sm:m-4 opacity-50">
-
-        <!-- Overlay for Name and Title -->
-        <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
-            <h2 class="text-4xl sm:text-6xl font-bold text-black">NexGen Mentoring Program</h2>
-        </div>
+            class="w-full h-auto max-h-[500px] object-contain sm:rounded-lg opacity-50">
     </div>
+</div>
+
+
+<div class="inset-0 flex flex-col justify-center items-center text-center w-full">
+    <h2 class="text-4xl sm:text-6xl font-bold text-black text-center">NextGen Mentoring Program</h2>
 </div>
 
 

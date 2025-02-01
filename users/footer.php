@@ -42,13 +42,14 @@
 
   <div class="text-center py-4 border-t border-gray-200">
     <p class="text-sm text-gray-500">
-      &copy; 2024 <a href="https://github.com/shibli2316/" class="text-blue-500 hover:underline">Shibli</a>. All rights
+      &copy; <span id="year"> </span> <a href="https://github.com/shibli2316/" class="text-blue-500 hover:underline"> Shibli</a>. All rights
       reserved.
     </p>
   </div>
 </footer>
 
 <script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
   const menuToggle = document.getElementById('menu-toggle');
   const menu = document.getElementById('menu');
 

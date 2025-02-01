@@ -42,14 +42,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 // Display success popup
                 $message = "Login successful! Redirecting to the dashboard...";
                 $messageType = "success";
-                $showPopup = true;
+                // $showPopup = true;
 
                 // JavaScript for delayed redirect
                 echo "
                     <script>
                         setTimeout(() => {
                             window.location.href = '../users/dashboard.php';
-                        }, 1000);
+                        }, 000);
                     </script>
                 ";
             } else {
