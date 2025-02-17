@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Gallery</title>
+    <style>
+        #gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Static Image Gallery</h1>
+    <div id="gallery"></div>
+
+    <script>
+        const gallery = document.getElementById('gallery');
+        const folder = "images/"; // Folder where images are stored
+        const totalImages = 10; // Change this based on your image count
+
+        for (let i = 1; i <= totalImages; i++) {
+            let img = document.createElement('img');
+            img.src = `${folder}img${i}.jpg`; // Change the pattern if needed
+            img.className = "image";
+            img.onerror = function() { this.style.display = 'none'; }; // Hide if not found
+            gallery.appendChild(img);
+        }
+    </script>
+</body>
+</html>

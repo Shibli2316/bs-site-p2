@@ -2,13 +2,13 @@
 include "includes/header.php";
 ?>
 
-<section class="flex justify-center items-center min-h-[70vh] sm:min-h-[75vh]">
-  <div class="relative w-4/5 sm:w-3/4 max-h-[75vh] overflow-hidden rounded-lg">
+<section class="flex justify-center items-center">
+  <div class="relative w-full lg:w-4/5 max-h-[75vh] overflow-hidden rounded-lg">
     <!-- Background Image -->
     <img src="assets/web/team.jpg" alt="Team" class="w-full h-full object-cover rounded-lg opacity-70">
 
     <!-- Bottom-Centered Text Content -->
-    <div class="absolute bottom-4 sm:bottom-8 inset-x-0 text-center mx-auto px-4">
+    <div class="absolute bottom-4 sm:bottom-8 inset-x-0 text-center mx-auto px-4 sm:px-6">
       <h2 class="text-2xl sm:text-4xl font-bold tracking-wide text-black">
         Bahujan Scholars
       </h2>
@@ -21,6 +21,8 @@ include "includes/header.php";
     </div>
   </div>
 </section>
+
+
 
 
 
@@ -109,7 +111,7 @@ include "includes/header.php";
     </div>
 
     <!-- Mentoring Image Section -->
-    <div class="flex-1 flex flex-col items-center justify-center">
+    <div class="flex-1 flex flex-col items-center justify-center" id="logicModel">
       <h3 class="text-2xl font-bold text-gray-900 mb-4">Logic Model</h3> <!-- Logic Model Heading -->
       <img src="assets/web/newLogic.png" alt="Mentoring Image" class="max-w-full h-auto rounded-lg shadow-lg">
     </div>
@@ -131,7 +133,7 @@ include "includes/header.php";
         class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[48%] xl:w-[30%]">
         <img src="assets/web/Photo-Bharat.jpeg" alt="Leader 1" class="w-32 h-32 rounded-full mb-4 object-cover">
         <h3 class="text-xl font-semibold text-blue-500 mb-2">Bharat Rathod</h3>
-        <p class="text-gray-600 text-lg mb-4">Director, <br>Bahujan Scholars</p>
+        <p class="text-gray-600 text-lg mb-4">Director</p>
         <p class="text-gray-900 text-sm">
           Bharat Rathod is the founder of Bahujan Scholars. He works as the Assistant Director of Inclusion and
           Engagement at University of Massachusetts (UMass) Amherst. He has a doctorate degree in International
@@ -150,7 +152,7 @@ include "includes/header.php";
         class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[48%] xl:w-[30%]">
         <img src="assets/web/Photo-Ajeet.jpeg" alt="Leader 2" class="w-32 h-32 rounded-full mb-4 object-cover">
         <h3 class="text-xl font-semibold text-blue-500 mb-2">Ajeet Shekhar</h3>
-        <p class="text-gray-600 text-lg mb-4">Chief Executive Officer, <br>Bahujan Scholar </p>
+        <p class="text-gray-600 text-lg mb-4">Chief Executive Officer </p>
         <p class="text-gray-900 text-sm">
           Ajeet Shekhar is a distinguished public intellectual, development professional, and scholar with a strong
           academic foundation from the University of Göttingen, Germany, and the Tata Institute of Social Sciences
@@ -163,7 +165,28 @@ include "includes/header.php";
           changemakers and driving social impact through grassroots initiatives.
         </p>
       </div>
-<!-- add 2 names here -->
+      <div
+        class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[48%] xl:w-[30%]">
+        <img src="assets/web/Pooja_Photo.jpeg" alt="Leader 1" class="w-32 h-32 rounded-full mb-4 object-cover">
+        <h3 class="text-xl font-semibold text-blue-500 mb-2">Pooja Kishor</h3>
+        <p class="text-gray-600 text-lg mb-4">Program Manager</p>
+        <p class="text-gray-900 text-sm mt-4">
+        Pooja Kishore is a  legal professional with a Bachelor’s in Law from National Law University, Patna, and a Master’s in Law from the University of Arizona, James E. Rogers College of Law, where she specialized in Indigenous Peoples Law and Policy. She is a passionate advocate for human rights, focusing on the rights and upliftment of Dalit, Tribal, Nomadic, Denotified, and Muslim communities in India. Pooja practices law in India, bringing her expertise and commitment to social justice to the forefront of her legal work. 
+
+        </p>
+      </div>
+
+      <!-- Leader 2 -->
+      <!-- <div
+        class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[48%] xl:w-[30%]">
+        <img src="assets/web/" alt="Leader 2" class="w-32 h-32 rounded-full mb-4 object-cover">
+        <h3 class="text-xl font-semibold text-blue-500 mb-2">Ahmad Raza Shibli</h3>
+        <p class="text-gray-600 text-lg mb-4">Technical Director</p>
+        <p class="text-gray-900 text-sm">
+          ------
+        </p>
+      </div> -->
+    <!-- add 2 names here -->
     </div>
   </div>
 </section>
