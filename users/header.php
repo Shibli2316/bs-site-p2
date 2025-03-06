@@ -82,7 +82,7 @@ $rowFindName = mysqli_fetch_assoc($resultFindName)
           class="hidden lg:flex lg:space-x-6 absolute lg:static top-16 left-0 w-full bg-white shadow-lg lg:shadow-none lg:bg-transparent lg:top-auto lg:left-auto z-40">
           <ul class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
             <li><a href="dashboard.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Home</a></li>
-            <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Anti Cast Campaign</a></li>
+            <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Anti Caste Campaign</a></li>
 
 
 
@@ -97,7 +97,7 @@ $rowFindName = mysqli_fetch_assoc($resultFindName)
                 class="hidden absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg">
                 <li><a href="program.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Program</a></li>
                 <li><a href="event.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Events</a></li>
-                <li><a href="archeives.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Archeives</a></li>
+                <li><a href="archeives.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Archives</a></li>
                 <li><a
                     href="https://docs.google.com/spreadsheets/d/1sZP2LMcS-fOABXL2rS_3viZfS3PUFtscT_NcpFi1NK4/edit?usp=sharing"
                     target="_blank" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Online Directory</a></li>

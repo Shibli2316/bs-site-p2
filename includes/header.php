@@ -71,7 +71,7 @@
                     <ul class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
                         <li><a href="index.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Home</a></li>
                         <li><a href="about.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">About</a></li>
-                        <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Anti Cast
+                        <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Anti Caste
                                 Campaign</a>
                         </li>
 
@@ -88,7 +88,7 @@
                                 <li><a href="event.php"
                                         class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Events</a></li>
                                 <li><a href="archeives.php"
-                                        class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Archeives</a>
+                                        class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Archives</a>
                                 </li>
                             </ul>
                         </li>

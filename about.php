@@ -169,7 +169,7 @@ include "includes/header.php";
         class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[48%] xl:w-[30%]">
         <img src="assets/web/Pooja_Photo.jpeg" alt="Leader 1" class="w-32 h-32 rounded-full mb-4 object-cover">
         <h3 class="text-xl font-semibold text-blue-500 mb-2">Pooja Kishor</h3>
-        <p class="text-gray-600 text-lg mb-4">Program Manager</p>
+        <p class="text-gray-600 text-lg mb-4">Chief Operation Officer</p>
         <p class="text-gray-900 text-sm mt-4">
         Pooja Kishore is a  legal professional with a Bachelor’s in Law from National Law University, Patna, and a Master’s in Law from the University of Arizona, James E. Rogers College of Law, where she specialized in Indigenous Peoples Law and Policy. She is a passionate advocate for human rights, focusing on the rights and upliftment of Dalit, Tribal, Nomadic, Denotified, and Muslim communities in India. Pooja practices law in India, bringing her expertise and commitment to social justice to the forefront of her legal work. 
 

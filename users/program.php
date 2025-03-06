@@ -4,7 +4,7 @@ include "header.php";
 
 <div class="container mx-auto p-4">
   <!-- Heading -->
-  <h1 class="text-4xl font-bold text-center text-gray-800 mb-6">Programs Information</h1>
+  <h1 class="text-4xl font-bold text-center text-gray-800 mb-6">Program Information</h1>
 
 
     <!-- Ongoing Programs Section -->
@@ -25,7 +25,7 @@ include "header.php";
             <img src="../assets/programs/nexgen.jpg" alt="Table Top Planters" class="w-full h-48 object-cover">
             <p
               class="cursor-pointer absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-2xl text-center text-white font-roboto font-medium group-hover:bg-opacity-60 transition">
-              NexGen</p>
+              NexGen Scholar</p>
           </div>
         </a>
         
