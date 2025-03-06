@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Validate and sanitize inputs
     $name = trim($_POST['name']);
     $email = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
-    $rating = trim($_POST['rating']);  // No need for numeric validation
+    
     $feedback = trim($_POST['feedback']);
     $improvement = trim($_POST['improvement']);
 
@@ -19,8 +19,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     // Prepare SQL query using prepared statements to prevent SQL injection
-    $stmt = $conn->prepare("INSERT INTO `feedback` (`name`, `email`, `feedback`, `improvement`, `rating`) VALUES (?, ?, ?, ?, ?)");
-    $stmt->bind_param("sssss", $name, $email, $feedback, $improvement, $rating);
+    $stmt = $conn->prepare("INSERT INTO `feedback` (`name`, `email`, `feedback`, `improvement`) VALUES (?, ?, ?, ?)");
+    $stmt->bind_param("ssss", $name, $email, $feedback, $improvement);
 
     // Execute the query and check if successful
     if ($stmt->execute()) {
@@ -69,14 +69,7 @@ if ($showPopup) {
             <label for="email" class="block text-lg font-semibold mb-2">Email Address</label>
             <input type="email" id="email" name="email" placeholder="Enter your email" class="w-full p-4 mb-6 border border-gray-300 rounded-md shadow-sm">
 
-            <label for="rating" class="block text-lg font-semibold mb-2">Rate Your Experience</label>
-            <select id="rating" name="rating" class="w-full p-4 mb-6 border border-gray-300 rounded-md shadow-sm">
-                <option value="">Select a rating</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="average">Average</option>
-                <option value="poor">Poor</option>
-            </select>
+            
 
             <label for="feedback" class="block text-lg font-semibold mb-2">Your Feedback</label>
             <textarea id="feedback" name="feedback" rows="5" placeholder="Write your feedback here..." class="w-full p-4 mb-6 border border-gray-300 rounded-md shadow-sm"></textarea>
