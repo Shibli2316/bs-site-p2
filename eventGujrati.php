@@ -14,7 +14,7 @@ include "includes/header.php";
 
         <!-- Overlay for Name and Title -->
         <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
-            <h2 class="text-4xl sm:text-6xl font-bold text-black">Gujrati Chapter</h2>
+            <h2 class="text-4xl sm:text-6xl font-bold text-black">Gujarati Chapter</h2>
             <p class="text-lg sm:text-xl text-black mt-2">Kesha Marwada</p>
         </div>
     </div>
@@ -27,7 +27,7 @@ include "includes/header.php";
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center mb-12">
         <div class="col-span-full">
-            <h3 class="text-lg font-bold">The Gujrati Chapter</h3>
+            <h3 class="text-lg font-bold">The Gujarati Chapter</h3>
             <p class="text-gray-500">Kesha Marwada heads the Bahujan Scholars Gujarati chapter, where she organizes monthly online events in Gujarati focused on academic and professional development. These sessions offer valuable guidance and insights, helping participants enhance their knowledge and career prospects. Kesha’s leadership fosters a supportive environment for personal and professional growth within the Gujarati-speaking community.</p>
         </div>
     </div>

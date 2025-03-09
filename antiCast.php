@@ -3,7 +3,8 @@ include "includes/header.php";
 ?>
 
 <div class="flex items-center justify-center mt-14 w-full">
-    <div class="relative left-0 right-0 bg-black bg-opacity-80 py-6 px-4 sm:px-6 rounded-lg w-full lg:w-4/5 flex justify-center mx-auto">
+    <div
+        class="relative left-0 right-0 bg-black bg-opacity-80 py-6 px-4 sm:px-6 rounded-lg w-full lg:w-4/5 flex justify-center mx-auto">
         <h3 class="text-5xl font-bold text-white text-center w-full">Anti Caste Campaign</h3>
     </div>
 </div>
@@ -15,7 +16,7 @@ include "includes/header.php";
         <div class="col-span-full">
             <div class="text-teal-500 text-4xl mb-2">✊</div>
 
-            <p class="text-lg mb-4">
+            <p class="text-lg mb-4 text-justify max-w-[70%] mx-auto">
                 Caste-based discrimination remains prevalent in US institutions. A <strong>2018 survey by Equality
                     Labs</strong> revealed that <strong>1 in 4 Dalit Americans</strong> faced verbal or physical assault
                 due to caste, and <strong>1 in 3 Dalit students</strong> encountered discrimination in their education.
@@ -32,12 +33,12 @@ include "includes/header.php";
             </p>
 
             <p class="text-lg text-center mt-6">
-                <strong><a href="assets/web/documents/Introduction Note.docx" download>Download</a> the full file to
-                    know more about this
-                    important issue.</strong>
+                <strong><a href="assets/web/documents/Introduction Note.docx" download>Download</a> the files below to
+                know more about the campaign.</strong>
             </p>
         </div>
     </div>
+
 
     <!-- Education, Experience, and Interests -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

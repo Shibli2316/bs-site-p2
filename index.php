@@ -80,7 +80,7 @@ include "includes/header.php";
         Bahujan Scholars
       </h1>
       <p class="text-gray-500 mt-2 md:mt-3">
-        Mentoring for social transformation
+        Mentoring for Social Transformation
       </p>
 
       <hr class="border-2 border-gray-300 my-3">
@@ -199,7 +199,7 @@ include "includes/header.php";
 
     <!-- Mentoring Text Section -->
     <div class="flex-1 flex flex-col justify-center px-5 text-left text-gray-900">
-      <h2 class="text-3xl font-bold text-gray-900 mb-6">Why Bahujan Scholars is unique?</h2>
+      <h2 class="text-3xl font-bold text-gray-900 mb-6">Why is Bahujan Scholars unique?</h2>
       <p class="text-lg text-gray-900 mb-6 leading-relaxed text-justify">
         Bahujan Scholars has a distinct advantage: all members of its network either live outside India or have
         international academic experience. This facilitates strong connections with global academia and an opportunity

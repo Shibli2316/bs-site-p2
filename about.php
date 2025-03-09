@@ -108,14 +108,63 @@ include "includes/header.php";
       </ul>
       <p class="text-lg text-gray-900 mb-6">Young adults facing an opportunity gap who have a mentor are 55% more likely
         to be enrolled in college than those who did not have a mentor. (Source: The Mentoring Effect, 2014)</p>
+
+      <div class="flex justify-center mt-4">
+        <button id="openModal"
+          class="inline-block rounded-lg border border-blue-700 bg-gradient-to-r from-blue-500 to-blue-700 px-16 py-4 text-lg font-bold text-white shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-400 animate-pulse">
+          🚀 Our Mentors and Mentees
+        </button>
+      </div>
+
+
+
+      <div id="modal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+        <div class="bg-white p-6 rounded-lg shadow-lg w-[90%] max-w-3xl relative">
+
+
+          <button id="closeModal" class="absolute top-2 right-2 text-gray-600 hover:text-gray-900 text-xl">
+            ✖
+          </button>
+
+
+          <h2 class="text-lg font-semibold text-center mb-4">Mentors and Mentees</h2>
+
+          <div class="flex justify-center gap-4">
+            <img src="assets/web/mentermentee.jpg" alt="Mentor" class="w-1/2 rounded-lg shadow">
+            <img src="assets/web/mentormentee2.jpg" alt="Mentee" class="w-1/2 rounded-lg shadow">
+          </div>
+        </div>
+      </div>
+
+
+      <script>
+        document.getElementById("openModal").addEventListener("click", function () {
+          document.getElementById("modal").classList.remove("hidden");
+        });
+
+        document.getElementById("closeModal").addEventListener("click", function () {
+          document.getElementById("modal").classList.add("hidden");
+        });
+
+
+        document.getElementById("modal").addEventListener("click", function (event) {
+          if (event.target === this) {
+            this.classList.add("hidden");
+          }
+        });
+      </script>
+
+
     </div>
 
-    <!-- Mentoring Image Section -->
+
+
     <div class="flex-1 flex flex-col items-center justify-center" id="logicModel">
-      <h3 class="text-2xl font-bold text-gray-900 mb-4">Logic Model</h3> <!-- Logic Model Heading -->
+      <h3 class="text-2xl font-bold text-gray-900 mb-4">Logic Model</h3>
       <img src="assets/web/newLogic.png" alt="Mentoring Image" class="max-w-full h-auto rounded-lg shadow-lg">
     </div>
   </div>
+
 </section>
 
 
@@ -171,7 +220,11 @@ include "includes/header.php";
         <h3 class="text-xl font-semibold text-blue-500 mb-2">Pooja Kishor</h3>
         <p class="text-gray-600 text-lg mb-4">Chief Operation Officer</p>
         <p class="text-gray-900 text-sm mt-4">
-        Pooja Kishore is a  legal professional with a Bachelor’s in Law from National Law University, Patna, and a Master’s in Law from the University of Arizona, James E. Rogers College of Law, where she specialized in Indigenous Peoples Law and Policy. She is a passionate advocate for human rights, focusing on the rights and upliftment of Dalit, Tribal, Nomadic, Denotified, and Muslim communities in India. Pooja practices law in India, bringing her expertise and commitment to social justice to the forefront of her legal work. 
+          Pooja Kishore is a legal professional with a Bachelor’s in Law from National Law University, Patna, and a
+          Master’s in Law from the University of Arizona, James E. Rogers College of Law, where she specialized in
+          Indigenous Peoples Law and Policy. She is a passionate advocate for human rights, focusing on the rights and
+          upliftment of Dalit, Tribal, Nomadic, Denotified, and Muslim communities in India. Pooja practices law in
+          India, bringing her expertise and commitment to social justice to the forefront of her legal work.
 
         </p>
       </div>
@@ -186,7 +239,7 @@ include "includes/header.php";
           ------
         </p>
       </div> -->
-    <!-- add 2 names here -->
+      <!-- add 2 names here -->
     </div>
   </div>
 </section>

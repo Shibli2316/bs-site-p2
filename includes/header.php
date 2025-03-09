@@ -71,9 +71,7 @@
                     <ul class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
                         <li><a href="index.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Home</a></li>
                         <li><a href="about.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">About</a></li>
-                        <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Anti Caste
-                                Campaign</a>
-                        </li>
+                        
 
                         <li class="relative">
                             <button id="dropdownButton1"
@@ -86,7 +84,7 @@
                                 <li><a href="program.php"
                                         class="block px-4 py-2 text-gray-700 hover:bg-gray-100 ">Program</a></li>
                                 <li><a href="event.php"
-                                        class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Events</a></li>
+                                        class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Chapters</a></li>
                                 <li><a href="archeives.php"
                                         class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Archives</a>
                                 </li>
@@ -95,6 +93,9 @@
                         
                         <li><a href="faq.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">FAQ</a></li>
                         <li><a href="contact.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Contact</a>
+                        </li>
+                        <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Anti-Caste
+                                Campaign</a>
                         </li>
 
                         <li>
@@ -108,7 +109,7 @@
                         <!-- Dropdown Menu 3 -->
                         <li><a href="auth/login.php"
                                 class="inline-block rounded bg-blue-600 px-5 py-2 text-sm font-medium text-white transition hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400">Sign
-                                Up</a>
+                                In</a>
                         </li>
 
                     </ul>

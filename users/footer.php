@@ -15,7 +15,7 @@
       <ul class="space-y-2">
         <li><a href="dashboard.php" class="text-gray-600 hover:text-blue-500 text-sm">Home</a></li>
         <li><a href="antiCast.php" class="text-gray-600 hover:text-blue-500 text-sm">Anti Cast Compaign</a></li>
-        <li><a href="event.php" class="text-gray-600 hover:text-blue-500 text-sm">Events</a></li>
+        <li><a href="event.php" class="text-gray-600 hover:text-blue-500 text-sm">Chapters</a></li>
         <li><a href="program.php" class="text-gray-600 hover:text-blue-500 text-sm">Programs</a></li>
       </ul>
     </div>

@@ -5,7 +5,7 @@
       <img src="assets/web/logo.png" alt="Bahujan Scholars Logo" class="w-12 h-12">
       <div>
         <h3 class="text-xl text-blue-500 font-bold">Bahujan Scholars</h3>
-        <p class="text-sm text-gray-600 mt-2">Mentoring for social transformation.</p>
+        <p class="text-sm text-gray-600 mt-2">Mentoring for Social Transformation.</p>
       </div>
     </div>
 
@@ -16,7 +16,7 @@
         <li><a href="index.php" class="text-gray-600 hover:text-blue-500 text-sm">Home</a></li>
         <li><a href="about.php" class="text-gray-600 hover:text-blue-500 text-sm">About</a></li>
         <li><a href="antiCast.php" class="text-gray-600 hover:text-blue-500 text-sm">Anti Caste Campaign</a></li>
-        <li><a href="event.php" class="text-gray-600 hover:text-blue-500 text-sm">Events</a></li>
+        <li><a href="event.php" class="text-gray-600 hover:text-blue-500 text-sm">Chapters</a></li>
         <li><a href="program.php" class="text-gray-600 hover:text-blue-500 text-sm">Programs</a></li>
         <li><a href="auth/login.php" class="text-gray-600 hover:text-blue-500 text-sm">Mentoring</a></li>
       </ul>
