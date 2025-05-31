@@ -34,7 +34,7 @@ include "includes/header.php";
 
             <p class="text-lg text-center mt-6">
                 <strong><a href="assets/web/documents/Introduction Note.docx" download>Download</a> the files below to
-                know more about the campaign.</strong>
+                    know more about the campaign.</strong>
             </p>
         </div>
     </div>
@@ -80,6 +80,64 @@ include "includes/header.php";
             </a>
         </div>
 
+    </div>
+
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <!-- Education -->
+        <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Memorandum</h3>
+            <div class="mb-4">
+                <p class="text-gray-500">Anti-caste Memorandum</p>
+            </div>
+
+            <a href="assets/web/documents/Anti-caste Memorandum-ICD.pdf" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">By the Boston University</h3>
+            <div class="mb-4">
+                <p class="text-gray-500">Commit to Inclusion by Recognizing Caste as a Protected Category at Boston
+                    University</p>
+            </div>
+
+            <a href="assets/web/documents/Draft_Bostion University document.docx" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Faculty letter</h3>
+            <div class="mb-4">
+                <p class="text-gray-500">Collective Faculty Letter of Support for CSU Caste Protections</p>
+            </div>
+
+            <a href="assets/web/documents/Faculty Letter_CSU.docx" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
+        </div>
+
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <!-- Education -->
+        <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Rutgers Caste Report</h3>
+            <div class="mb-4">
+                <p class="text-gray-500">University Statement on the Posting of this Report</p>
+            </div>
+
+            <a href="assets/web/documents/Rutgers Caste Report August 2024.pdf" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
+        </div>
     </div>
 </div>
 
