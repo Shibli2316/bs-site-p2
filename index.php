@@ -159,34 +159,10 @@ include "includes/header.php";
 
 
 
-<!-- START OF SECTION 4 -->
-
-<section class="py-16 px-5 bg-gray-50 flex justify-center">
-  <div class="flex flex-col-reverse lg:flex-row max-w-screen-xl w-full gap-8">
-    <!-- Mentoring Image Section -->
-    <div class="flex-1 flex items-center justify-center mb-8 lg:mb-0">
-      <img src="assets/web/why-mentor.jpg" alt="Mentoring Image" class="max-w-full h-auto rounded-lg shadow-lg">
-    </div>
-
-    <!-- Mentoring Text Section -->
-    <div class="flex-1 flex flex-col justify-center px-5 text-left text-gray-900">
-      <h2 class="text-3xl font-bold text-gray-900 mb-6">Why is Bahujan Scholars unique?</h2>
-      <p class="text-lg text-gray-900 mb-6 leading-relaxed text-justify">
-        Bahujan Scholars has a distinct advantage: all members of its network either live outside India or have
-        international academic experience. This facilitates strong connections with global academia and an opportunity
-        to build ally and Bahujan scholars' networks. Our one-on-one mentoring project is international collaboration,
-        pairing mentors from Bahujan Scholars with mentees from India. This unique positionality not only sets Bahujan
-        Scholars apart from other mentoring initiatives but also presents great opportunities to build global
-        institutional connections.
-      </p>
-    </div>
-  </div>
-</section>
 
 
 
 
-<!-- END OF SECTION 4 -->
 
 
 
@@ -198,8 +174,13 @@ include "includes/header.php";
 
 
 <!-- START OF MENTEE ACHIEVEMENTS SECTION -->
-<section class="py-16 px-5 bg-gray-50 flex justify-center">
-  <div class="flex flex-col lg:flex-row max-w-screen-xl w-full gap-8 items-center shadow-2xl rounded-2xl border border-gray-200">
+<section 
+  class="py-16 px-5 flex justify-center transition-all duration-700 group relative overflow-hidden"
+  id="mentee-achievements-section"
+  style="background-color: #f9fafb; will-change: background;"
+>
+  <div class="flex flex-col lg:flex-row max-w-screen-xl w-full gap-8 items-center shadow-2xl rounded-2xl border border-gray-200 opacity-0 translate-y-12 transition-all duration-1000" id="mentee-achievements-content">
+    
     <!-- Text Section -->
     <div class="flex-1 flex flex-col justify-center px-5 text-left text-gray-900 py-5">
       <h2 class="text-3xl font-bold text-blue-700 mb-6">Mentee Achievements</h2>
@@ -215,13 +196,56 @@ include "includes/header.php";
         <p class="mt-3 text-gray-700">on their academic journey ahead!</p>
       </div>
     </div>
+
     <!-- Image Section -->
     <div class="flex-1 flex items-center justify-center mb-8 lg:mb-0">
       <img src="assets/web/Mentee Success poster_ July 2025.jpg" alt="Mentee Achievements" class="max-w-full h-auto rounded-lg shadow-lg border-4 border-gray-100">
     </div>
+  
   </div>
 </section>
+
+<script>
+// Reveal content on scroll
+function revealAchievements() {
+  const section = document.getElementById('mentee-achievements-section');
+  const content = document.getElementById('mentee-achievements-content');
+  const rect = section.getBoundingClientRect();
+  if (rect.top < window.innerHeight - 100) {
+    content.classList.remove('opacity-0', 'translate-y-12');
+    content.classList.add('opacity-100', 'translate-y-0');
+    window.removeEventListener('scroll', revealAchievements);
+  }
+}
+window.addEventListener('scroll', revealAchievements);
+window.addEventListener('DOMContentLoaded', revealAchievements);
+
+// Gradient background on hover
+const section = document.getElementById('mentee-achievements-section');
+const originalBg = "#f9fafb"; // Tailwind's bg-gray-50
+
+let animFrame, startTime;
+
+function animateSectionGradient(ts) {
+  if (!startTime) startTime = ts;
+  const progress = ((ts - startTime) / 2000) % 1;
+  section.style.background = `linear-gradient(90deg, #93c5fd ${progress * 100}%, #c7d2fe ${(progress * 100) + 30}%, #7dd3fc 100%)`;
+  animFrame = requestAnimationFrame(animateSectionGradient);
+}
+
+section.addEventListener('mouseenter', () => {
+  startTime = null;
+  animFrame = requestAnimationFrame(animateSectionGradient);
+});
+
+section.addEventListener('mouseleave', () => {
+  cancelAnimationFrame(animFrame);
+  section.style.background = originalBg;
+});
+</script>
 <!-- END OF MENTEE ACHIEVEMENTS SECTION -->
+
+
 
 
 
@@ -253,7 +277,7 @@ include "includes/header.php";
           <p class="text-gray-700 text-lg mb-4 italic">
             "The Bahujan Scholar Mentorship Programme profoundly shaped my academic journey by providing crucial guidance during the early stages of my PhD preparation. With dedicated mentorship from <b>Nefeli Forni Zervoudaki</b>, I refined key application materials and secured offers from top universities. I will now pursue funded graduate studies at the <b>University of Göttingen</b>."
           </p>
-          <h4 class="text-blue-600 font-semibold">Tasnim Bharmal</h4>
+          <h4 class="text-xl text-blue-600 font-semibold">Tasnim Bharmal</h4>
           <a href="testimonials.php#tasnim-bharmal" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
         </div>
         <!-- Testimonial 2 -->
@@ -262,7 +286,7 @@ include "includes/header.php";
           <p class="text-gray-700 text-lg mb-4 italic">
             "The Bahujan Scholars' Mentoring Program was a transformative and affirming journey, thanks to the compassionate guidance of my mentor, <b>Bonnie Zare</b>. Her support helped me gain clarity and confidence, leading to my admission into the <b>PhD program at IIT Delhi</b>. The program fostered not just academic growth, but also community and shared purpose."
           </p>
-          <h4 class="text-pink-600 font-semibold">Akansha Tanwar</h4>
+          <h4 class="text-xl text-pink-600 font-semibold">Akansha Tanwar</h4>
           <a href="testimonials.php#akansha-tanwar" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
         </div>
         <!-- Testimonial 3 -->
@@ -271,7 +295,7 @@ include "includes/header.php";
           <p class="text-gray-700 text-lg mb-4 italic">
             "The Bahujan Mentorship Program was a transformative experience that provided me with guidance, community, and clarity as a first-generation learner. Through personalized mentoring and research support, I refined my goals and gained the confidence to pursue opportunities I once doubted. <b>Above all, the program emphasized collective upliftment and the importance of amplifying Bahujan voices in academia</b>."
           </p>
-          <h4 class="text-orange-600 font-semibold">Pradyumna Kumar Siddharth </h4>
+          <h4 class="text-xl text-orange-600 font-semibold">Pradyumna Kumar Siddharth </h4>
           <a href="testimonials.php#pradyumna-kumar" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
         </div>
         <!-- Testimonial 4 -->
@@ -280,7 +304,7 @@ include "includes/header.php";
           <p class="text-gray-700 text-lg mb-4 italic">
             "The Bahujan Scholars Mentoring Programme deeply enriched my research skills and critical thinking, thanks to the dedicated mentorship of <b>Tyler Lehrer</b>. His guidance pushed me to rethink familiar ideas and explore diverse critical perspectives, transforming how I approach my work. I feel intellectually renewed and grateful for this lasting impact and community."
           </p>
-          <h4 class="text-lime-600 font-semibold">Suraj Kumar</h4>
+          <h4 class="text-xl text-lime-600 font-semibold">Suraj Kumar</h4>
           <a href="testimonials.php#suraj-kumar" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
         </div>
         <!-- Testimonial 5 -->
@@ -289,7 +313,7 @@ include "includes/header.php";
           <p class="text-gray-700 text-lg mb-4 italic">
             "The Bahujan Mentorship Program has been a guiding force in my journey as a first-generation learner from a marginalized background. With <b>Dr. Ranga Ram Sir’s</b> thoughtful mentorship, I gained both professional guidance and deeper awareness of identity and roots. His support was instrumental in securing my <b>internship under Dr. Joseph H. Hammer in Social Justice Activism.</b>"
           </p>
-          <h4 class="text-cyan-600 font-semibold">Umesh Kumar</h4>
+          <h4 class="text-xl text-cyan-600 font-semibold">Umesh Kumar</h4>
           <a href="testimonials.php#umesh-kumar" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
         </div>
         <!-- Testimonial 6 -->
@@ -298,7 +322,7 @@ include "includes/header.php";
           <p class="text-gray-700 text-lg mb-4 italic">
             "Joining the Bahujan Mentoring Program was a pivotal step in my academic and professional journey, offering both guidance and direction. With my mentor’s genuine support, <b>I navigated technical challenges and career planning more confidently</b>. I'm truly grateful to be part of a program that fosters such meaningful connections."
           </p>
-          <h4 class="text-emerald-600 font-semibold"> Shubham Paikrao</h4>
+          <h4 class="text-xl text-emerald-600 font-semibold"> Shubham Paikrao</h4>
           <a href="testimonials.php#shubham-paikrao" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
         </div>
       </div>
@@ -361,6 +385,42 @@ include "includes/header.php";
 <!-- END OF TESTIMONIALS SECTION -->
 
 
+
+
+
+
+
+
+
+
+<!-- START OF SECTION 4 -->
+
+<section class="py-16 px-5 bg-gray-50 flex justify-center">
+  <div class="flex flex-col-reverse lg:flex-row max-w-screen-xl w-full gap-8">
+    <!-- Mentoring Image Section -->
+    <div class="flex-1 flex items-center justify-center mb-8 lg:mb-0">
+      <img src="assets/web/why-mentor.jpg" alt="Mentoring Image" class="max-w-full h-auto rounded-lg shadow-lg">
+    </div>
+
+    <!-- Mentoring Text Section -->
+    <div class="flex-1 flex flex-col justify-center px-5 text-left text-gray-900">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6">Why is Bahujan Scholars unique?</h2>
+      <p class="text-lg text-gray-900 mb-6 leading-relaxed text-justify">
+        Bahujan Scholars has a distinct advantage: all members of its network either live outside India or have
+        international academic experience. This facilitates strong connections with global academia and an opportunity
+        to build ally and Bahujan scholars' networks. Our one-on-one mentoring project is international collaboration,
+        pairing mentors from Bahujan Scholars with mentees from India. This unique positionality not only sets Bahujan
+        Scholars apart from other mentoring initiatives but also presents great opportunities to build global
+        institutional connections.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- END OF SECTION 4 -->
 
 
 <?php
