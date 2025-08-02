@@ -85,6 +85,41 @@ include "includes/header.php";
   </div>
 </section>
 
+
+<!-- START OF SECTION 3 -->
+
+<section class="py-16 px-5 bg-gray-50 flex justify-center">\
+
+  <div class="flex flex-col lg:flex-row max-w-screen-xl w-full gap-8">
+    <!-- Mentoring Text Section -->
+    <!-- Mentoring Image Section -->
+    <div class="flex-1 flex items-center justify-center">
+      <img src="assets/web/objective.jpg" alt="Mentoring Image" class="max-w-full h-auto rounded-lg shadow-lg">
+    </div>
+    <div class="flex-1 flex flex-col justify-center px-5 text-left text-gray-900">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6">Our Objectives</h2>
+      <div class="text-justify">
+        <ul class="list-disc pl-5 mb-6">
+          <li class="text-lg mb-3">To institutionalize mentoring work and to develop mentoring models.</li>
+          <li class="text-lg mb-3">To develop online platforms to offer support, resources, and a space for
+            brainstorming and collaboration.</li>
+          <li class="text-lg mb-3">To organize online events to provide academic and professional support to Bahujan
+            Scholars.</li>
+          <li class="text-lg mb-3">To build allyship, networks, and social capital for Bahujan Scholars.</li>
+          <li class="text-lg mb-3">To develop a research agenda responsive to the sociopolitical contexts.</li>
+          <li class="text-lg mb-3">To develop technology-based knowledge to assist a range of activities and tasks.</li>
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- END OF SECTION 3 -->
+
+
+
 <section class="py-16 px-5 bg-gray-50 flex justify-center">
   <div class="flex flex-col lg:flex-row max-w-screen-xl w-full gap-8">
     <!-- Mentoring Text Section -->
@@ -225,6 +260,27 @@ include "includes/header.php";
           Indigenous Peoples Law and Policy. She is a passionate advocate for human rights, focusing on the rights and
           upliftment of Dalit, Tribal, Nomadic, Denotified, and Muslim communities in India. Pooja practices law in
           India, bringing her expertise and commitment to social justice to the forefront of her legal work.
+
+        </p>
+      </div>
+
+
+      <div
+        class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[48%] xl:w-[30%]">
+        <img src="assets/web/Photo-Shibli.jpg" alt="Leader 1" class="w-32 h-32 rounded-full mb-4 object-cover">
+        <h3 class="text-xl font-semibold text-blue-500 mb-2">Ahmad Raza Shibli</h3>
+        <p class="text-gray-600 text-lg mb-4">Chief Technology Officer</p>
+        <p class="text-gray-900 text-sm mt-4">
+          Ahmad Raza Shibli is a Computer Science grad at the University of Göttingen, Germany. His academic interests
+          lie in backend development, system design, data science, and digital solutions for education and research.
+          Ahmad holds a Bachelor's degree in Computer Applications from Aligarh Muslim University (AMU), India, where he
+          actively contributed to student-led projects in technology and social impact.
+          <br>
+          Ahmad has worked on several interdisciplinary research and development projects, including leading the web and
+          software team for the student satellite mission SS AMU SAT. He has also contributed to academic publications
+          in machine learning, data privacy, and educational technology. His technical expertise includes full-stack
+          development, automation tools, and digital infrastructure for scientific communication. Through this platform,
+          he aims to merge his technical skills with a vision for equity, empowerment, and representation.
 
         </p>
       </div>
