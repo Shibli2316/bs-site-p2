@@ -172,15 +172,17 @@ include "includes/header.php";
 
 
 
-
 <!-- START OF MENTEE ACHIEVEMENTS SECTION -->
 <section 
-  class="py-16 px-5 flex justify-center transition-all duration-700 group relative overflow-hidden"
+  class="py-16 px-5 flex justify-center transition-all duration-700 relative overflow-hidden"
   id="mentee-achievements-section"
-  style="background-color: #f9fafb; will-change: background;"
+  style="background-color: #f9fafb; will-change: background, transform;"
 >
-  <div class="flex flex-col lg:flex-row max-w-screen-xl w-full gap-8 items-center shadow-2xl rounded-2xl border border-gray-200 opacity-0 translate-y-12 transition-all duration-1000" id="mentee-achievements-content">
-    
+  <div 
+    class="flex flex-col lg:flex-row max-w-screen-xl w-full gap-8 items-center shadow-2xl rounded-2xl border border-gray-200 bg-white transform transition-all duration-700 scale-100 hover:scale-[1.015] hover:shadow-blue-200 hover:shadow-2xl"
+    id="mentee-achievements-content"
+    style="opacity: 0; transform: translateY(48px);"
+  >
     <!-- Text Section -->
     <div class="flex-1 flex flex-col justify-center px-5 text-left text-gray-900 py-5">
       <h2 class="text-3xl font-bold text-blue-700 mb-6">Mentee Achievements</h2>
@@ -201,7 +203,6 @@ include "includes/header.php";
     <div class="flex-1 flex items-center justify-center mb-8 lg:mb-0">
       <img src="assets/web/Mentee Success poster_ July 2025.jpg" alt="Mentee Achievements" class="max-w-full h-auto rounded-lg shadow-lg border-4 border-gray-100">
     </div>
-  
   </div>
 </section>
 
@@ -212,30 +213,31 @@ function revealAchievements() {
   const content = document.getElementById('mentee-achievements-content');
   const rect = section.getBoundingClientRect();
   if (rect.top < window.innerHeight - 100) {
-    content.classList.remove('opacity-0', 'translate-y-12');
-    content.classList.add('opacity-100', 'translate-y-0');
+    content.style.opacity = "1";
+    content.style.transform = "translateY(0)";
+    content.style.transition = "opacity 0.8s ease-out, transform 0.8s ease-out";
     window.removeEventListener('scroll', revealAchievements);
   }
 }
 window.addEventListener('scroll', revealAchievements);
 window.addEventListener('DOMContentLoaded', revealAchievements);
 
-// Gradient background on hover
+// Hover background animation
 const section = document.getElementById('mentee-achievements-section');
-const originalBg = "#f9fafb"; // Tailwind's bg-gray-50
+const originalBg = "#f9fafb";
 
 let animFrame, startTime;
 
-function animateSectionGradient(ts) {
+function animateGradient(ts) {
   if (!startTime) startTime = ts;
   const progress = ((ts - startTime) / 2000) % 1;
-  section.style.background = `linear-gradient(90deg, #93c5fd ${progress * 100}%, #c7d2fe ${(progress * 100) + 30}%, #7dd3fc 100%)`;
-  animFrame = requestAnimationFrame(animateSectionGradient);
+  section.style.background = `linear-gradient(90deg, #bfdbfe ${progress * 100}%, #e0e7ff ${(progress * 100) + 30}%, #bae6fd 100%)`;
+  animFrame = requestAnimationFrame(animateGradient);
 }
 
 section.addEventListener('mouseenter', () => {
   startTime = null;
-  animFrame = requestAnimationFrame(animateSectionGradient);
+  animFrame = requestAnimationFrame(animateGradient);
 });
 
 section.addEventListener('mouseleave', () => {
@@ -244,6 +246,10 @@ section.addEventListener('mouseleave', () => {
 });
 </script>
 <!-- END OF MENTEE ACHIEVEMENTS SECTION -->
+
+
+
+
 
 
 
