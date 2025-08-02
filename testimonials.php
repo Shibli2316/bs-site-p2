@@ -23,7 +23,7 @@ include "includes/header.php";
         <div class="flex flex-col lg:flex-row lg:flex-wrap justify-center items-stretch gap-8">
 
             <!-- Testimonial 1 -->
-            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]">
+            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]" id="tasnim-bharmal">
                 <img src="assets/testimonials/1.png" alt="Testimonial 1"
                     class="w-60 h-60 rounded-full mb-4 object-cover border-4 border-blue-200">
                 <p class="text-gray-700 text-lg mb-4 italic">
@@ -56,7 +56,7 @@ include "includes/header.php";
             </div>
 
             <!-- Testimonial 2 -->
-            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]">
+            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]" id="akansha-tanwar">
                 <img src="assets/testimonials/2.jpg" alt="Testimonial 2"
                     class="w-60 h-60 rounded-full mb-4 object-cover border-4 border-pink-200">
                 <p class="text-gray-700 text-lg mb-4 italic">
@@ -82,7 +82,7 @@ include "includes/header.php";
             </div>
 
             <!-- Testimonial 3 -->
-            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]">
+            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]" id="pradyumna-kumar">
                 <img src="assets/testimonials/3.jpeg" alt="Testimonial 3"
                     class="w-60 h-60 rounded-full mb-4 object-cover border-4 border-orange-200">
                 <p class="text-gray-700 text-lg mb-4 italic">
@@ -112,7 +112,7 @@ include "includes/header.php";
             </div>
 
 
-            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]">
+            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]" id="suraj-kumar">
                 <img src="assets/testimonials/4.jpg" alt="Testimonial 3"
                     class="w-60 h-60 rounded-full mb-4 object-cover border-4 border-lime-200">
                 <p class="text-gray-700 text-lg mb-4 italic">
@@ -142,7 +142,7 @@ include "includes/header.php";
 
 
 
-            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]">
+            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]" id="umesh-kumar">
                 <img src="assets/testimonials/5.jpg" alt="Testimonial 3"
                     class="w-60 h-60 rounded-full mb-4 object-cover border-4 border-cyan-200">
                 <p class="text-gray-700 text-lg mb-4 italic">
@@ -169,7 +169,7 @@ include "includes/header.php";
 
 
 
-            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]">
+            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]" id="shubham-paikrao">
                 <img src="assets/testimonials/6.jpg" alt="Testimonial 3"
                     class="w-60 h-60 rounded-full mb-4 object-cover border-4 border-emerald-200">
                 <p class="text-gray-700 text-lg mb-4 italic">

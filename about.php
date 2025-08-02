@@ -271,31 +271,19 @@ include "includes/header.php";
         <h3 class="text-xl font-semibold text-blue-500 mb-2">Ahmad Raza Shibli</h3>
         <p class="text-gray-600 text-lg mb-4">Chief Technology Officer</p>
         <p class="text-gray-900 text-sm mt-4">
-          Ahmad Raza Shibli is a Computer Science grad at the University of Göttingen, Germany. His academic interests
-          lie in backend development, system design, data science, and digital solutions for education and research.
-          Ahmad holds a Bachelor's degree in Computer Applications from Aligarh Muslim University (AMU), India, where he
-          actively contributed to student-led projects in technology and social impact.
+          Ahmad Raza Shibli is a Computer Science graduate from the University of Göttingen, Germany, with interests in
+          backend development, system design, data science, and digital solutions for education. He earned his
+          Bachelor's in Computer Applications from Aligarh Muslim University (AMU), India, where he contributed to
+          student-led tech and social projects.
           <br>
-          Ahmad has worked on several interdisciplinary research and development projects, including leading the web and
-          software team for the student satellite mission SS AMU SAT. He has also contributed to academic publications
-          in machine learning, data privacy, and educational technology. His technical expertise includes full-stack
-          development, automation tools, and digital infrastructure for scientific communication. Through this platform,
-          he aims to merge his technical skills with a vision for equity, empowerment, and representation.
+          He led the web and software team for the SS AMU SAT student satellite mission and has worked on research
+          involving machine learning, data privacy, and educational tech. His skills span full-stack development,
+          automation, and digital infrastructure for research. Ahmad seeks to combine technology with a commitment to
+          equity and empowerment.
 
         </p>
       </div>
 
-      <!-- Leader 2 -->
-      <!-- <div
-        class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[48%] xl:w-[30%]">
-        <img src="assets/web/" alt="Leader 2" class="w-32 h-32 rounded-full mb-4 object-cover">
-        <h3 class="text-xl font-semibold text-blue-500 mb-2">Ahmad Raza Shibli</h3>
-        <p class="text-gray-600 text-lg mb-4">Technical Director</p>
-        <p class="text-gray-900 text-sm">
-          ------
-        </p>
-      </div> -->
-      <!-- add 2 names here -->
     </div>
   </div>
 </section>
