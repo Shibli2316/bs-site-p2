@@ -114,7 +114,7 @@ include "includes/header.php";
 
             <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]">
                 <img src="assets/testimonials/4.jpg" alt="Testimonial 3"
-                    class="w-60 h-60 rounded-full mb-4 object-cover border-4 border-orange-200">
+                    class="w-60 h-60 rounded-full mb-4 object-cover border-4 border-lime-200">
                 <p class="text-gray-700 text-lg mb-4 italic">
                     "The Bahujan Scholars Mentoring Programme has been an immensely enriching experience, particularly
                     in sharpening my research skills and deepening my critical thinking. Working under the guidance of
@@ -144,7 +144,7 @@ include "includes/header.php";
 
             <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]">
                 <img src="assets/testimonials/5.jpg" alt="Testimonial 3"
-                    class="w-60 h-60 rounded-full mb-4 object-cover border-4 border-orange-200">
+                    class="w-60 h-60 rounded-full mb-4 object-cover border-4 border-cyan-200">
                 <p class="text-gray-700 text-lg mb-4 italic">
                     "The Bahujan Mentorship program entered as a great hope for my aspirations. The initiative contains
                     multilevel sensitivity for first-generation learners and individuals coming from systematic
@@ -171,7 +171,7 @@ include "includes/header.php";
 
             <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full lg:w-[40%]">
                 <img src="assets/testimonials/6.jpg" alt="Testimonial 3"
-                    class="w-60 h-60 rounded-full mb-4 object-cover border-4 border-orange-200">
+                    class="w-60 h-60 rounded-full mb-4 object-cover border-4 border-emerald-200">
                 <p class="text-gray-700 text-lg mb-4 italic">
                     "I wanted to take a moment to express my appreciation for the Bahujan Mentoring program and share a
                     brief testimonial.
