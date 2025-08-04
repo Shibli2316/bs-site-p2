@@ -176,7 +176,7 @@ include "includes/header.php";
 <section 
   class="py-16 px-5 flex justify-center transition-all duration-700 relative overflow-hidden"
   id="mentee-achievements-section"
-  style="background-color: #f9fafb; will-change: background, transform;"
+  style="background-color: #f9fafb;"
 >
   <div 
     class="flex flex-col lg:flex-row max-w-screen-xl w-full gap-8 items-center shadow-2xl rounded-2xl border border-gray-200 bg-white transform transition-all duration-700 scale-100 hover:scale-[1.015] hover:shadow-blue-200 hover:shadow-2xl"
@@ -200,12 +200,38 @@ include "includes/header.php";
     </div>
 
     <!-- Image Section -->
-    <div class="flex-1 flex items-center justify-center mb-8 lg:mb-0">
-      <img src="assets/web/Mentee Success poster_ July 2025.jpg" alt="Mentee Achievements" class="max-w-full h-auto rounded-lg shadow-lg border-4 border-gray-100">
+    <div class="flex-1 flex items-center justify-center mb-8 lg:mb-0 relative">
+      <img 
+        id="menteePoster" 
+        src="assets/web/Mentee Success poster_ July 2025.jpg" 
+        alt="Mentee Achievements" 
+        class="w-full h-auto rounded-lg shadow-lg border-4 border-gray-100 cursor-pointer object-contain max-h-[500px]"
+        style="max-height: fit-content;"
+      />
     </div>
   </div>
 </section>
 
+<!-- Fullscreen Modal -->
+<div 
+  id="fullscreenModal" 
+  class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden items-center justify-center"
+>
+  <button 
+    id="closeModal" 
+    class="absolute top-4 right-4 text-white text-3xl font-bold hover:text-red-400"
+    aria-label="Close fullscreen"
+  >
+    &times;
+  </button>
+  <img 
+    src="assets/web/Mentee Success poster_ July 2025.jpg" 
+    alt="Full screen poster" 
+    class="max-h-[90vh] max-w-[90vw] rounded-lg shadow-2xl"
+  />
+</div>
+
+<!-- Script Section -->
 <script>
 // Reveal content on scroll
 function revealAchievements() {
@@ -222,30 +248,25 @@ function revealAchievements() {
 window.addEventListener('scroll', revealAchievements);
 window.addEventListener('DOMContentLoaded', revealAchievements);
 
-// Hover background animation
-const section = document.getElementById('mentee-achievements-section');
-const originalBg = "#f9fafb";
+// Fullscreen poster toggle
+const menteePoster = document.getElementById("menteePoster");
+const fullscreenModal = document.getElementById("fullscreenModal");
+const closeModal = document.getElementById("closeModal");
 
-let animFrame, startTime;
-
-function animateGradient(ts) {
-  if (!startTime) startTime = ts;
-  const progress = ((ts - startTime) / 2000) % 1;
-  section.style.background = `linear-gradient(90deg, #bfdbfe ${progress * 100}%, #e0e7ff ${(progress * 100) + 30}%, #bae6fd 100%)`;
-  animFrame = requestAnimationFrame(animateGradient);
-}
-
-section.addEventListener('mouseenter', () => {
-  startTime = null;
-  animFrame = requestAnimationFrame(animateGradient);
+menteePoster.addEventListener("click", () => {
+  fullscreenModal.classList.remove("hidden");
+  fullscreenModal.classList.add("flex");
+  document.body.style.overflow = 'hidden'; // Disable scroll
 });
 
-section.addEventListener('mouseleave', () => {
-  cancelAnimationFrame(animFrame);
-  section.style.background = originalBg;
+closeModal.addEventListener("click", () => {
+  fullscreenModal.classList.add("hidden");
+  fullscreenModal.classList.remove("flex");
+  document.body.style.overflow = ''; // Restore scroll
 });
 </script>
 <!-- END OF MENTEE ACHIEVEMENTS SECTION -->
+
 
 
 
