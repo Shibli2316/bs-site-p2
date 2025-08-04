@@ -124,6 +124,11 @@ include "includes/header.php";
         </div>
 
     </div>
+
+
+
+
+
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <!-- Education -->
         <div class="bg-gray-100 p-6 rounded-lg">
@@ -139,6 +144,10 @@ include "includes/header.php";
             </a>
         </div>
     </div>
+
+
+
+    
 </div>
 
 
