@@ -317,12 +317,12 @@ closeModal.addEventListener("click", () => {
         </div>
         <!-- Testimonial 3 -->
         <div class="testimonial-item bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full sm:w-4/5 lg:w-1/3 mx-2">
-          <img src="assets/testimonials/4.jpg" alt="Suraj Kumar" class="w-40 h-40 rounded-full mb-4 object-cover border-4 border-lime-200">
+          <img src="assets/testimonials/5.jpg" alt="Umesh Kumar" class="w-40 h-40 rounded-full mb-4 object-cover border-4 border-cyan-200">
           <p class="text-gray-700 text-lg mb-4 italic">
-            "The Bahujan Scholars Mentoring Programme deeply enriched my research skills and critical thinking, thanks to the dedicated mentorship of <b>Tyler Lehrer</b>. His guidance pushed me to rethink familiar ideas and explore diverse critical perspectives, transforming how I approach my work. I feel intellectually renewed and grateful for this lasting impact and community."
+            "The Bahujan Mentorship Program has been a guiding force in my journey as a first-generation learner from a marginalized background. With <b>Dr. Ranga Ram Sir’s</b> thoughtful mentorship, I gained both professional guidance and deeper awareness of identity and roots. His support was instrumental in securing my <b>internship under Dr. Joseph H. Hammer in Social Justice Activism.</b>"
           </p>
-          <h4 class="text-xl text-lime-600 font-semibold">Suraj Kumar</h4>
-          <a href="testimonials.php#suraj-kumar" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
+          <h4 class="text-xl text-cyan-600 font-semibold">Umesh Kumar</h4>
+          <a href="testimonials.php#umesh-kumar" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
         </div>
         <!-- Testimonial 4 -->
          <div class="testimonial-item bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full sm:w-4/5 lg:w-1/3 mx-2">
@@ -335,14 +335,15 @@ closeModal.addEventListener("click", () => {
         </div>
         
         <!-- Testimonial 5 -->
-        <div class="testimonial-item bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full sm:w-4/5 lg:w-1/3 mx-2">
-          <img src="assets/testimonials/5.jpg" alt="Umesh Kumar" class="w-40 h-40 rounded-full mb-4 object-cover border-4 border-cyan-200">
+         <div class="testimonial-item bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full sm:w-4/5 lg:w-1/3 mx-2">
+          <img src="assets/testimonials/4.jpg" alt="Suraj Kumar" class="w-40 h-40 rounded-full mb-4 object-cover border-4 border-lime-200">
           <p class="text-gray-700 text-lg mb-4 italic">
-            "The Bahujan Mentorship Program has been a guiding force in my journey as a first-generation learner from a marginalized background. With <b>Dr. Ranga Ram Sir’s</b> thoughtful mentorship, I gained both professional guidance and deeper awareness of identity and roots. His support was instrumental in securing my <b>internship under Dr. Joseph H. Hammer in Social Justice Activism.</b>"
+            "The Bahujan Scholars Mentoring Programme deeply enriched my research skills and critical thinking, thanks to the dedicated mentorship of <b>Tyler Lehrer</b>. His guidance pushed me to rethink familiar ideas and explore diverse critical perspectives, transforming how I approach my work. I feel intellectually renewed and grateful for this lasting impact and community."
           </p>
-          <h4 class="text-xl text-cyan-600 font-semibold">Umesh Kumar</h4>
-          <a href="testimonials.php#umesh-kumar" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
+          <h4 class="text-xl text-lime-600 font-semibold">Suraj Kumar</h4>
+          <a href="testimonials.php#suraj-kumar" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
         </div>
+        
         <!-- Testimonial 6 -->
         <div class="testimonial-item bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full sm:w-4/5 lg:w-1/3 mx-2">
           <img src="assets/testimonials/6.jpg" alt=" Shubham Paikrao" class="w-40 h-40 rounded-full mb-4 object-cover border-4 border-emerald-200">
