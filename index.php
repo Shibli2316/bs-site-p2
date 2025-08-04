@@ -317,15 +317,6 @@ closeModal.addEventListener("click", () => {
         </div>
         <!-- Testimonial 3 -->
         <div class="testimonial-item bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full sm:w-4/5 lg:w-1/3 mx-2">
-          <img src="assets/testimonials/3.jpeg" alt="Pradyumna Kumar Siddharth " class="w-40 h-40 rounded-full mb-4 object-cover border-4 border-orange-200">
-          <p class="text-gray-700 text-lg mb-4 italic">
-            "The Bahujan Mentorship Program was a transformative experience that provided me with guidance, community, and clarity as a first-generation learner. Through personalized mentoring and research support, I refined my goals and gained the confidence to pursue opportunities I once doubted. <b>Above all, the program emphasized collective upliftment and the importance of amplifying Bahujan voices in academia</b>."
-          </p>
-          <h4 class="text-xl text-orange-600 font-semibold">Pradyumna Kumar Siddharth </h4>
-          <a href="testimonials.php#pradyumna-kumar" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
-        </div>
-        <!-- Testimonial 4 -->
-        <div class="testimonial-item bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full sm:w-4/5 lg:w-1/3 mx-2">
           <img src="assets/testimonials/4.jpg" alt="Suraj Kumar" class="w-40 h-40 rounded-full mb-4 object-cover border-4 border-lime-200">
           <p class="text-gray-700 text-lg mb-4 italic">
             "The Bahujan Scholars Mentoring Programme deeply enriched my research skills and critical thinking, thanks to the dedicated mentorship of <b>Tyler Lehrer</b>. His guidance pushed me to rethink familiar ideas and explore diverse critical perspectives, transforming how I approach my work. I feel intellectually renewed and grateful for this lasting impact and community."
@@ -333,6 +324,16 @@ closeModal.addEventListener("click", () => {
           <h4 class="text-xl text-lime-600 font-semibold">Suraj Kumar</h4>
           <a href="testimonials.php#suraj-kumar" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
         </div>
+        <!-- Testimonial 4 -->
+         <div class="testimonial-item bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full sm:w-4/5 lg:w-1/3 mx-2">
+          <img src="assets/testimonials/3.jpeg" alt="Pradyumna Kumar Siddharth " class="w-40 h-40 rounded-full mb-4 object-cover border-4 border-orange-200">
+          <p class="text-gray-700 text-lg mb-4 italic">
+            "The Bahujan Mentorship Program was a transformative experience that provided me with guidance, community, and clarity as a first-generation learner. Through personalized mentoring and research support, I refined my goals and gained the confidence to pursue opportunities I once doubted. <b>Above all, the program emphasized collective upliftment and the importance of amplifying Bahujan voices in academia</b>."
+          </p>
+          <h4 class="text-xl text-orange-600 font-semibold">Pradyumna Kumar Siddharth </h4>
+          <a href="testimonials.php#pradyumna-kumar" class="mt-4 text-blue-600 hover:text-blue-800 underline text-sm">Read more</a>
+        </div>
+        
         <!-- Testimonial 5 -->
         <div class="testimonial-item bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center w-full sm:w-4/5 lg:w-1/3 mx-2">
           <img src="assets/testimonials/5.jpg" alt="Umesh Kumar" class="w-40 h-40 rounded-full mb-4 object-cover border-4 border-cyan-200">
