@@ -15,7 +15,7 @@
       <ul class="space-y-2">
         <li><a href="index.php" class="text-gray-600 hover:text-blue-500 text-sm">Home</a></li>
         <li><a href="about.php" class="text-gray-600 hover:text-blue-500 text-sm">About</a></li>
-        <li><a href="antiCast.php" class="text-gray-600 hover:text-blue-500 text-sm">Anti Caste Campaign</a></li>
+        <!-- <li><a href="antiCast.php" class="text-gray-600 hover:text-blue-500 text-sm">Anti Caste Campaign</a></li> -->
         <li><a href="event.php" class="text-gray-600 hover:text-blue-500 text-sm">Chapters</a></li>
         <li><a href="program.php" class="text-gray-600 hover:text-blue-500 text-sm">Programs</a></li>
         <li><a href="auth/login.php" class="text-gray-600 hover:text-blue-500 text-sm">Mentoring</a></li>

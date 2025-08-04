@@ -82,7 +82,7 @@ $rowFindName = mysqli_fetch_assoc($resultFindName)
           class="hidden lg:flex lg:space-x-6 absolute lg:static top-16 left-0 w-full bg-white shadow-lg lg:shadow-none lg:bg-transparent lg:top-auto lg:left-auto z-40">
           <ul class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
             <li><a href="dashboard.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Home</a></li>
-            <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Anti-Caste Campaign</a></li>
+            <!-- <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Anti-Caste Campaign</a></li> -->
 
 
 

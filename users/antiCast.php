@@ -39,13 +39,15 @@ include "header.php";
         </div>
     </div>
 
+
     <!-- Education, Experience, and Interests -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <!-- Education -->
         <div class="bg-gray-100 p-6 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Presentation</h3>
+            <h3 class="text-xl font-bold mb-4">Anti-Caste Presentation</h3>
             <div class="mb-4">
-                <p class="text-gray-500">A small powerpoint presentation about it</p>
+                <p class="text-gray-500">A ppt that explains why caste should be added to the non-discrimination policy of a higher education institution
+                </p>
             </div>
 
             <a href="../assets/web/documents/Anti-caste campaign@Umass.pptx" download>
@@ -55,9 +57,9 @@ include "header.php";
             </a>
         </div>
         <div class="bg-gray-100 p-6 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Support Letter</h3>
+            <h3 class="text-xl font-bold mb-4">Anti-Caste Support Letter</h3>
             <div class="mb-4">
-                <p class="text-gray-500">Support letter for your reference</p>
+                <p class="text-gray-500">A support letter that can be adapted to submit to the higher-level administration of a college/University. </p>
             </div>
 
             <a href="../assets/web/documents/Support Letter for Anti-caste Campaign.docx" download>
@@ -67,9 +69,9 @@ include "header.php";
             </a>
         </div>
         <div class="bg-gray-100 p-6 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Cover letter</h3>
+            <h3 class="text-xl font-bold mb-4">Anti-Caste Cover Letter</h3>
             <div class="mb-4">
-                <p class="text-gray-500">Cover letter for your reference</p>
+                <p class="text-gray-500">A cover letter adaptable for seeking endorsement from student and faculty groups.</p>
             </div>
 
             <a href="../assets/web/documents/Cover Letter for Anti-caste Support letter.docx" download>
@@ -80,6 +82,74 @@ include "header.php";
         </div>
 
     </div>
+
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <!-- Education -->
+        <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Anti-Caste Memorandum</h3>
+            <div class="mb-4">
+                <p class="text-gray-500">An anti-caste memorandum template that offers an overview of the legal rationale.</p>
+            </div>
+
+            <a href="../assets/web/documents/Anti-caste Memorandum-ICD.pdf" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Anti-Caste Proposal</h3>
+            <div class="mb-4">
+                <p class="text-gray-500">An anti-caste proposal developed by students at Boston University.</p>
+            </div>
+
+            <a href="../assets/web/documents/Draft_Bostion University document.docx" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Anti-Caste Faculty Support Letter</h3>
+            <div class="mb-4">
+                <p class="text-gray-500">A collective faculty letter of support for California State University (CSU) caste protection. </p>
+            </div>
+
+            <a href="../assets/web/documents/Faculty Letter_CSU.docx" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <!-- Education -->
+        <div class="bg-gray-100 p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Caste Task Force Report</h3>
+            <div class="mb-4">
+                <p class="text-gray-500">A report on Caste-based discrimination in US higher education & at Rutgers</p>
+            </div>
+
+            <a href="../assets/web/documents/Rutgers Caste Report August 2024.pdf" download>
+                <button class="px-6 py-2 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 mt-4">
+                    Download File
+                </button>
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+
 </div>
 
 

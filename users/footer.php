@@ -14,7 +14,7 @@
       <h4 class="text-lg text-blue-500 font-semibold mb-4">Quick Links</h4>
       <ul class="space-y-2">
         <li><a href="dashboard.php" class="text-gray-600 hover:text-blue-500 text-sm">Home</a></li>
-        <li><a href="antiCast.php" class="text-gray-600 hover:text-blue-500 text-sm">Anti Cast Compaign</a></li>
+        <!-- <li><a href="antiCast.php" class="text-gray-600 hover:text-blue-500 text-sm">Anti Cast Compaign</a></li> -->
         <li><a href="event.php" class="text-gray-600 hover:text-blue-500 text-sm">Chapters</a></li>
         <li><a href="program.php" class="text-gray-600 hover:text-blue-500 text-sm">Programs</a></li>
       </ul>

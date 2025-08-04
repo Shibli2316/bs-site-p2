@@ -94,9 +94,7 @@
                         <li><a href="faq.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">FAQ</a></li>
                         <li><a href="contact.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Contact</a>
                         </li>
-                        <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Anti-Caste
-                                Campaign</a>
-                        </li>
+                        <!-- <li><a href="antiCast.php" class="hover:text-blue-500 block px-4 py-2 font-semibold">Anti-Caste Campaign</a></li> -->
 
                         <li>
                             <a href="https://www.youtube.com/@BahujanScholars-up6ek"

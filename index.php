@@ -206,7 +206,7 @@ include "includes/header.php";
         src="assets/web/Mentee Success poster_ July 2025.jpg" 
         alt="Mentee Achievements" 
         class="w-full h-auto rounded-lg shadow-lg border-4 border-gray-100 cursor-pointer object-contain max-h-[500px]"
-        style="max-height: fit-content;"
+        style="max-height: fit-content; width: 308px;"
       />
     </div>
   </div>
@@ -291,9 +291,8 @@ closeModal.addEventListener("click", () => {
 <!-- START OF TESTIMONIALS SECTION -->
 <section class="py-16 px-5 bg-gray-50 flex justify-center">
   <div class="flex flex-col w-full max-w-screen-xl">
-    <div class="flex justify-between items-center mb-8">
-      <h2 class="text-3xl font-bold text-gray-900">Testimonials</h2>
-      <a href="testimonials.php" class="text-blue-600 hover:text-blue-800 font-medium text-base transition">See more</a>
+    <div class="flex justify-center items-center mb-8">
+      <h2 class="text-4xl font-bold text-gray-900 text-center">Testimonials</h2>
     </div>
     <!-- Carousel Container -->
     <div class="relative">
