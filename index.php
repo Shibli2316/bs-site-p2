@@ -287,7 +287,6 @@ closeModal.addEventListener("click", () => {
 
 
 
-
 <!-- START OF TESTIMONIALS SECTION -->
 <section class="py-16 px-5 bg-gray-50 flex justify-center">
   <div class="flex flex-col w-full max-w-screen-xl">
@@ -368,6 +367,11 @@ closeModal.addEventListener("click", () => {
     </div>
   </div>
 </section>
+
+
+
+
+
 <script>
   // Responsive carousel: 1 at a time on mobile, 3 at a time on lg+
   const items = document.querySelectorAll('.testimonial-item');
@@ -411,6 +415,94 @@ closeModal.addEventListener("click", () => {
   showTestimonials(current);
 </script>
 <!-- END OF TESTIMONIALS SECTION -->
+
+
+
+
+<!-- video testimonial section -->
+
+<section style="padding: 60px 0; background:#f7f7f7;">
+    <div style="max-width:1200px; margin:0 auto; padding:0 20px;">
+        
+        <h2 style="text-align:center; font-size:2.2rem; margin-bottom:40px; color:#333;">
+            Our Video Showcase
+        </h2>
+
+        <div style="
+            display:flex; 
+            flex-wrap:wrap; 
+            gap:20px; 
+            justify-content:center;
+        ">
+
+            <!-- Video 1 -->
+            <div style="
+                width:100%;
+                max-width:560px;
+                height:315px; /* FIXED SAME HEIGHT */
+                background:#000; /* better appearance when using contain */
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                border-radius:12px;
+                overflow:hidden;
+                box-shadow:0 4px 10px rgba(0,0,0,0.1);
+            ">
+                <video 
+                    controls 
+                    style="
+                        width:100%;
+                        height:100%;
+                        object-fit:contain;  /* show full video without cropping */
+                        border-radius:12px;
+                        background:#000;
+                    ">
+                    <source src="https://raw.githubusercontent.com/Shibli2316/bs-site-p2/master/assets/web/videos/My%20Movie%20(1).mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <!-- Video 2 -->
+            <div style="
+                width:100%;
+                max-width:560px;
+                height:315px; /* SAME HEIGHT */
+                background:#000;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                border-radius:12px;
+                overflow:hidden;
+                box-shadow:0 4px 10px rgba(0,0,0,0.1);
+            ">
+                <video 
+                    controls 
+                    style="
+                        width:100%;
+                        height:100%;
+                        object-fit:contain;  /* NO CROPPING */
+                        border-radius:12px;
+                        background:#000;
+                    ">
+                    <source src="https://raw.githubusercontent.com/Shibli2316/bs-site-p2/master/assets/web/videos/Akanksha.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- end of video testimonial section -->
+
+
+
+
+
+
+
+
+
 
 
 
